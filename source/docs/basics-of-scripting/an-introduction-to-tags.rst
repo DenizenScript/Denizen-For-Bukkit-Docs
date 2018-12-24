@@ -5,8 +5,7 @@
 ==========================
 
 This section covers the video "`Your First Tags
-<http://one.denizenscript.com/denizen/vids/Your%20First%20Tags>`_" [#]_ by
-mcmonkey4eva.
+<https://www.youtube.com/watch?v=b_3bxk0aI3c>`_" [#]_ by mcmonkey4eva.
 
 You were already exposed to tags in :ref:`Section 1.3<getting-started
 dscript-format>`, as all of the examples there used tags. However, we never
@@ -101,4 +100,4 @@ server and start by using ``!t SEARCH_TERM`` (for example, ``!t player.name``).
 Alternatively, you can see the full list of tags at the official documentation
 site’s tag page.
 
-.. [#] http://one.denizenscript.com/denizen/vids/Your%20First%20Tags
+.. [#] https://www.youtube.com/watch?v=b_3bxk0aI3c

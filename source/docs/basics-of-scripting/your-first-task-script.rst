@@ -5,7 +5,7 @@
 =========================
 
 This section covers the video “`Setting Up A Local Test Server and Your First
-Task Script <https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20 Your%20First%20Task%20Script>`_”
+Task Script <https://www.youtube.com/watch?v=I71eMkUZmDY>`_”
 [#]_ by mcmonkey.
 
 .. note::
@@ -47,4 +47,4 @@ that start with a dash ``-`` . What are they, and how do they work?
 .. todo
   Finish this section
 
-.. [#] https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20 Your%20First%20Task%20Script
+.. [#] https://www.youtube.com/watch?v=I71eMkUZmDY
