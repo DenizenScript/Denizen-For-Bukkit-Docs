@@ -26,6 +26,7 @@ Contents
    :titlesonly:
 
    docs/getting-started/index
+   docs/basics-of-scripting/index
 
 Updates to this Beginner's Guide
 ================================
