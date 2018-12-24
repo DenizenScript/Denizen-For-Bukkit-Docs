@@ -42,7 +42,8 @@ later.
 2. Arguments and Quotes
 -----------------------
 
-There may be times when you have a command or a tag that has a space inside of it. We have an example script below:
+There may be times when you have a command or a tag that has a space inside of
+it. We have an example script below:
 
 .. code:: yaml
   :name: figure1_3_2
@@ -74,7 +75,10 @@ start of an argument, is invalid, and will cause parsing errors. Is there a way
 to get the whole sentence to be considered one argument, and to get the single
 quote to not cause strange behaviors?
 
-Luckily, there is. If you encase something in quotes, Denizen will automatically consider the entire quoted segment as one argument. For example, -Put me in quotes- is considered 4 arguments while -"Put me in quotes"- is seen as only one! Below are two acceptable ways to quote an argument.
+Luckily, there is. If you encase something in quotes, Denizen will automatically
+consider the entire quoted segment as one argument. For example, ``Put me in
+quotes`` is considered 4 arguments while ``"Put me in quotes"`` is seen as only
+one! Below are two acceptable ways to quote an argument.
 
 .. code:: yaml
   :number-lines:
