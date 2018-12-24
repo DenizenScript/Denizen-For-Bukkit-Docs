@@ -107,8 +107,8 @@ quotes and ``<&sq>`` for single quotes).
 One of the most important aspect of writing in dScript is consistent indentation. Remember to keep a reasonable and consistent indentation pattern. The indents can be formed using TAB or any even amount of spaces. We strongly recommend that spaces are used to indent lines rather than TABs. The example script below demonstrates these conventions well:
 
 .. code:: yaml
-  :number-lines:
   :name: _figure1_3_4
+  :number-lines:
 
   a_task_script:
       type: task
@@ -124,12 +124,12 @@ One of the most important aspect of writing in dScript is consistent indentation
 
 Figure 1.3.4: An indentation demonstration
 
-In this example, there are **two task scripts** (we will cover what tasks
-scripts are in [TODO: ADD SECTION REFERENCE]). If you were to highlight each
-script, you would see that each indentation is formed using 4 spaces. You don’t
-always have to use 4 spaces! Indentation using 2, 6, or even 8 spaces are all
-perfectly acceptable (indentations using an odd number of spaces are not)! Just
-remember to be consistent and organize your script well.
+In this example, there are **two task scripts** (we will cover what task scripts
+are in [TODO: ADD SECTION REFERENCE]). If you were to highlight each script,
+you would see that each indentation is formed using 4 spaces. You don’t always
+have to use 4 spaces! Indentation using 2, 6, or even 8 spaces are all perfectly
+acceptable (indentations using an odd number of spaces are not)! Just remember
+to be consistent and organize your script well.
 
 Indentation clearly tells Denizen which are script containers (the lines that
 are not indented) and what belongs to each script container (the lines that are

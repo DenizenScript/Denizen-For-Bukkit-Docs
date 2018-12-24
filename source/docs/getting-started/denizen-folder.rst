@@ -8,9 +8,9 @@ When you first start (or restart) your server with Denizen installed, the
 Denizen folder should be created under ``./plugins/``. When you open your 
 ``./plugins/Denizen/`` folder, you should see something similar to this:
 
-.. _figure1-2-1:
-
 .. image:: ../../_static/images/denizen-directory-1.png
+  :name: figure1_2_1
+  :scale: 60
   :align: center
   :alt: A depiction of the Denizen plugin's directory.
 
