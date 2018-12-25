@@ -5,8 +5,10 @@
 =========================
 
 This section covers the video “`Setting Up A Local Test Server and Your First
-Task Script <https://www.youtube.com/watch?v=I71eMkUZmDY>`_”
-[#]_ by mcmonkey.
+Task Script`_” by mcmonkey.
+
+.. _Setting Up A Local Test Server and Your First Task Script:
+  https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20Your%20First%20Task%20Script
 
 .. note::
   
@@ -14,6 +16,12 @@ Task Script <https://www.youtube.com/watch?v=I71eMkUZmDY>`_”
   be downloading or using Craftbukkit. Instead, use the latest Spigot builds
   You can find out more about obtaining a Spigot JAR at
   https://www.spigotmc.org/wiki/buildtools/.
+
+.. contents::
+  :local:
+
+Before We Start
+---------------
 
 We’ve been using task scripts in every example by now. You know that you can run
 them by using the command ``/ex run TASK_SCRIPT_NAME`` in-game. Now what you
@@ -44,7 +52,8 @@ dscript-format>`.
 This leaves us with one last thing. The ``script`` section and all of the lines
 that start with a dash ``-`` . What are they, and how do they work?
 
+The "script" Section
+--------------------
+
 .. todo
   Finish this section
-
-.. [#] https://www.youtube.com/watch?v=I71eMkUZmDY

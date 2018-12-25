@@ -4,8 +4,15 @@
 1. An Introduction to Tags
 ==========================
 
-This section covers the video "`Your First Tags
-<https://www.youtube.com/watch?v=b_3bxk0aI3c>`_" [#]_ by mcmonkey4eva.
+This section covers the video "`Your First Tags`_" by mcmonkey4eva.
+
+.. _Your First Tags: https://one.denizenscript.com/denizen/vids/Your%20First%20Tags
+
+.. contents::
+  :local:
+
+Before We Start
+---------------
 
 You were already exposed to tags in :ref:`Section 1.3<getting-started
 dscript-format>`, as all of the examples there used tags. However, we never
@@ -41,6 +48,9 @@ If you followed the steps above, you would probably get “Hello world!” and
 your username instead? Would that not be great (and also a really basic feature
 of any scripting language made for Minecraft servers)? You know the answer to
 this question already: Use tags!
+
+Using Tags
+----------
 
 Tags are defined by relevant text between the less than symbol ``<`` and the
 greater than symbol ``>`` (we’ll refer to these two symbols as tag marks). For
@@ -99,5 +109,3 @@ you want to look up a full list of tags, you can hop on over to our Discord
 server and start by using ``!t SEARCH_TERM`` (for example, ``!t player.name``).
 Alternatively, you can see the full list of tags at the official documentation
 site’s tag page.
-
-.. [#] https://www.youtube.com/watch?v=b_3bxk0aI3c

@@ -15,8 +15,8 @@ to customize your server!
   This guide largely assumes that you already have a Spigot server set up and
   ready to use.
 
-  :ref:`Section 1.2<getting-started denizen-folder>` covers the Denizen folder and its
-  various files/directories.
+  :ref:`Section 1.2 (The Denizen Folder)<getting-started denizen-folder>` covers
+  the Denizen folder and its various files/directories.
 
 Contents
 ========
