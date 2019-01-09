@@ -34,7 +34,7 @@ Putting this together, we get thie following:
   a_task_script:
       type: task
       script:
-      - <some Denizen command>
+      - define nothing "This script does absolutely nothing!"
 
 You will learn more about each script container type and their various parts
 later.
@@ -104,7 +104,12 @@ quotes and ``<&sq>`` for single quotes).
 3. Indentation
 --------------
 
-One of the most important aspect of writing in dScript is consistent indentation. Remember to keep a reasonable and consistent indentation pattern. The indents can be formed using TAB or any even amount of spaces. We strongly recommend that spaces are used to indent lines rather than TABs. The example script below demonstrates these conventions well:
+One of the most important aspect of writing in dScript is consistent
+indentation. Remember to keep a reasonable and consistent indentation pattern.
+The indents can be formed using TAB or any even amount of spaces. We strongly
+recommend that spaces are used to indent lines rather than TABs.
+
+The example script below demonstrates these conventions well:
 
 .. code:: yaml
   :name: _figure1_3_4
