@@ -22,11 +22,11 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
-   :titlesonly:
+  :maxdepth: 2
+  :titlesonly:
 
-   docs/getting-started/index
-   docs/basics-of-scripting/index
+  docs/getting-started/index
+  docs/basics-of-scripting/index
 
 Updates to this Beginner's Guide
 ================================

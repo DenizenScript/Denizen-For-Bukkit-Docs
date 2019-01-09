@@ -9,9 +9,9 @@ Contents
 ========
 
 .. toctree::
-    :maxdepth: 1
-    :titlesonly:
-    
-    introduction
-    denizen-folder
-    dscript-format
+  :maxdepth: 1
+  :titlesonly:
+
+  introduction
+  denizen-folder
+  dscript-format
