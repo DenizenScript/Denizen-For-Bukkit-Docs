@@ -14,4 +14,5 @@ Contents
   :titlesonly:
 
   an-introduction-to-tags
+  the-ex-command
   your-first-task-script

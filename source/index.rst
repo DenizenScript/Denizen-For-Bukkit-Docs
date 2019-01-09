@@ -25,6 +25,7 @@ Contents
   :maxdepth: 2
   :titlesonly:
 
+  docs/glossary
   docs/getting-started/index
   docs/basics-of-scripting/index
 
