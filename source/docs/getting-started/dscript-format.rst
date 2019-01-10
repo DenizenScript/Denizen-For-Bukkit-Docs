@@ -1,5 +1,3 @@
-.. _getting-started dscript-format:
-
 =================
 3. dScript Format
 =================

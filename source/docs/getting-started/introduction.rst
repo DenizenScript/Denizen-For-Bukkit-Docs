@@ -1,5 +1,3 @@
-.. _getting-started introduction:
-
 ===============
 1. Introduction
 ===============
@@ -32,8 +30,8 @@ writing code that does similar things in Java. Nice!
 
 All script files follow the dScript format, which shares some features with
 YAML. For example, indentation is key. Clear and consistent naming is highly
-recommended. We will cover more of this in :ref:`Section 1.3 (dScript Format)
-<getting-started dscript-format>`.
+recommended. We will cover more of this in :doc:`Section 1.3 (dScript Format)
+<dscript-format>`.
 
 For now, we will assume that you already have a server ready for scripting. If
 you don’t, consider setting up a local server. You can download BuildTools and

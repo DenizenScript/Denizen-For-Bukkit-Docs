@@ -183,5 +183,11 @@ epub_exclude_files = ['search.html']
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
 
+# -- Custom Options ----------------------------------------------------------
+
+# Remove automatic hyperlinks from scaled images
+html_scaled_image_link = False
+
+# Add custom CSS to the generated HTML files
 def setup(app):
     app.add_stylesheet('css/stylesheet.css')

@@ -46,8 +46,8 @@ We know that ``myscript`` is the script’s container name. Therefore, all of th
 indented lines underneath “``myscript``” are part of the same script. From
 there, we can tell that the script type of ``myscript`` is ``task``, as
 indicated by “``type: task``”. For a brief explanation on script container names
-and types, refer to :ref:`Section 1.3 (dScript Format)<getting-started
-dscript-format>`.
+and types, refer to :doc:`Section 1.3 (dScript Format)
+<../getting-started/dscript-format>`.
 
 This leaves us with one last thing. The ``script`` section and all of the lines
 that start with a dash ``-`` . What are they, and how do they work?
@@ -56,7 +56,7 @@ that start with a dash ``-`` . What are they, and how do they work?
 -----------------------
 
 For task scripts, the ``script`` section is the section that contains all of the
-script that Denizen should run. Each line that starts with a ``-`` is a dScript
+script that Denizen should run. Each line that starts with a ``-`` is a Denizen
 **command**. Each command is run in the order that they are written in. Consider
 the following example:
 
@@ -79,19 +79,16 @@ When you load this script to your server and run it in-game using ``/ex run
 myscript``, you will see those two lines printed to your chat. The image below
 shows the expected result:
 
-.. todo
-  Upload the image.
-
-.. image ../../_static/images/f2.2.3_result.png
+.. image:: ../../_static/images/f2.3.3_result-of-f2.3.2.png
   :name: figure2_3_3
-  :scale: 60
+  :width: 90%
   :align: center
-  :alt: The expected results when running the script in Figure 2.2.2
+  :alt: The expected results when running the script in :ref:`Figure 2.2.2<figure2_3_2>`
 
 .. rst-class:: figurecaption
 
 Figure 2.2.3: The expected results when running the script in :ref:`Figure
-2.2.2<figure2_3_2>`.
+2.3.2<figure2_3_2>`.
 
 As indicated by the above figure, the script runs every command in order. This
 is true for all Denizen scripts, not just task scripts. So don't worry about a

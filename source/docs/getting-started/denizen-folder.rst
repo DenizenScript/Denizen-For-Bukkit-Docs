@@ -1,5 +1,3 @@
-.. _getting-started denizen-folder:
-
 =====================
 2. The Denizen Folder
 =====================

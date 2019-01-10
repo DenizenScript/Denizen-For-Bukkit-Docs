@@ -10,9 +10,9 @@
 Before We Start
 ---------------
 
-We used the ``/ex`` command once, in :ref:`Section 2.1: An Introduction to Tags
-<basics-of-scripting an-introduction-to-tags>`. It seems important, doesn't it?
-If you expected me to say that it's not important, you're wrong.
+We used the ``/ex`` command once, in :doc:`Section 2.1: An Introduction to Tags
+<../basics-of-scripting/an-introduction-to-tags>`. It seems important, doesn't
+it? If you expected me to say that it's not important, you're wrong.
 
 1. What the ``/ex`` Command Is
 ------------------------------
@@ -48,7 +48,7 @@ clearly not ideal if the player running the command is untrustworthy in any way.
 
 Making operators powerless won't help. As long as the player has access to the
 ``/ex`` command, they can do anything within the limitation of Denizen. As we
-mentioned in :ref:`Section 1.1: Introduction<getting-started introduction>`,
+mentioned in :doc:`Section 1.1: Introduction<../getting-started/introduction>`,
 that limit can be higher than you can see. Hopefully this demonstrates the power
 that the ``/ex`` command wields.
 

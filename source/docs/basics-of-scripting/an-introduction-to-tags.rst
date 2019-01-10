@@ -1,5 +1,3 @@
-.. _basics-of-scripting an-introduction-to-tags:
-
 ==========================
 1. An Introduction to Tags
 ==========================
@@ -14,10 +12,10 @@ This section covers the video "`Your First Tags`_" by mcmonkey4eva.
 Before We Start
 ---------------
 
-You were already exposed to tags in :ref:`Section 1.3<getting-started
-dscript-format>`, as all of the examples there used tags. However, we never
-quite clarified what they are and what they do. And of course, your question by
-now should be “*What are tags, and what can they do?*”
+You were already exposed to tags in :doc:`Section 1.3
+<../getting-started/dscript-format>`, as all of the examples there used tags.
+However, we never quite clarified what they are and what they do. And of course,
+your question by now should be “*What are tags, and what can they do?*”
 
 First, let’s prepare for this example. Start your server and log in. When you’re
 in your server and are ready to do some live Denizen testing, come back here and
