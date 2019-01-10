@@ -1,6 +1,6 @@
-=====================
-2. The Denizen Folder
-=====================
+======================
+1.2 The Denizen Folder
+======================
 
 When you first start (or restart) your server with Denizen installed, the
 Denizen folder should be created under ``./plugins/``. When you open your 
@@ -14,7 +14,7 @@ Denizen folder should be created under ``./plugins/``. When you open your
 
 .. rst-class:: figurecaption
 
-Figure 1.2.1: Test
+**Figure 1.2.1** The ``plugins/Denizen/`` folder
 
 The ``entities.yml``, ``maps.yml``, ``notables.yml``, ``saves.yml``, and
 ``scoreboards.yml`` files all hold various bits of data directly related to a

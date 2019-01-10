@@ -1,8 +1,6 @@
-.. _basics-of-scripting the-ex-command:
-
-======================
-2. The ``/ex`` Command
-======================
+=======================
+2.2 The ``/ex`` Command
+=======================
 
 .. contents::
   :local:
@@ -10,9 +8,9 @@
 Before We Start
 ---------------
 
-We used the ``/ex`` command once, in :doc:`Section 2.1: An Introduction to Tags
+We used the ``/ex`` command once, in :doc:`Section 2.1
 <../basics-of-scripting/an-introduction-to-tags>`. It seems important, doesn't
-it? If you expected me to say that it's not important, you're wrong.
+it? If you expected me to say that it's not important, *you're wrong*.
 
 1. What the ``/ex`` Command Is
 ------------------------------
@@ -25,8 +23,8 @@ important that you understand what it does and how to use it.
 
 Simply put, it can run a Denizen command from in-game or via console. Does it
 sound underwhelming? Probably. However, it is not to be underestimated.
-Permission to run the ``/ex`` command should not be given to any user not
-trusted with virtually full control over the server.
+*Permission to run the* ``/ex`` *command should not be given to any user not
+trusted with virtually full control over the server*.
 
 To give you a perspective as to how dangerous it can be in the wrong hands,
 consider the following command:
@@ -38,7 +36,7 @@ consider the following command:
 
 .. rst-class:: figurecaption
 
-Figure 2.2.1: A way for someone to give themselves operator status using the
+**Figure 2.2.1** A way for someone to give themselves operator status using the
 ``/ex`` command
 
 This will run the command ``/op PLAYER_USERNAME`` from the console, effectively

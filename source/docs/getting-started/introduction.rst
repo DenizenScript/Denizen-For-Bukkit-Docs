@@ -1,6 +1,6 @@
-===============
-1. Introduction
-===============
+================
+1.1 Introduction
+================
 
 Denizen is a Spigot plugin that gives you an entire scripting language
 (**dScript**) to use to customize your Minecraft server experience. You can add
@@ -18,7 +18,7 @@ unnecessary complexity and has tools that streamline the scripting process.
 
 Scripts are entirely capable of doing anything within the bounds of Minecraft
 and can replace a variety of plugins. In fact, it extends beyond the limits of
-the Spigot API and therefore can do more than the standard Spigot plugin. It’s
+the Spigot API and therefore can do more than the standard Spigot plugin. It's
 lenient to both beginners and developers. Consider it the Swiss army knife of
 Minecraft servers.
 
@@ -34,7 +34,7 @@ recommended. We will cover more of this in :doc:`Section 1.3 (dScript Format)
 <dscript-format>`.
 
 For now, we will assume that you already have a server ready for scripting. If
-you don’t, consider setting up a local server. You can download BuildTools and
+you don't, consider setting up a local server. You can download BuildTools and
 view instructions on how to build your own Spigot JAR file on the official
 BuildTools page.
 

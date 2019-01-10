@@ -32,6 +32,7 @@ Contents
 
   docs/getting-started/index
   docs/basics-of-scripting/index
+  docs/more-on-npcs/index
   docs/glossary
 
 Updates to this Beginner's Guide
@@ -41,7 +42,7 @@ As Denizen continues to evolve, there may be slight changes that are not
 immediately reflected in this guide. However, this does not mean that this
 document will become obsolete. Whenever there is a syntactical or technical
 change in Denizen, this guide will update as appropriate, as soon as possible,
-in the context of a beginner’s guide.
+in the context of a beginner's guide.
 
 If you wish to see the full changelog, check out the **GitHub repo**
 (see `Important Links`_). All issue reports should there as well.
@@ -59,7 +60,7 @@ material, some of the scripts shown in the videos sometimes have slightly
 outdated syntax compared to the current standard. We will try to use all of the
 example scripts in the videos while keeping them as modern as possible.
 
-Of course, we won’t limit ourselves to the videos. The purpose of this guide is
+Of course, we won't limit ourselves to the videos. The purpose of this guide is
 to help you in the best way possible! Additional information and sections may be
 added as we see fit.
 
