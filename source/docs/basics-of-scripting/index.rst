@@ -16,3 +16,16 @@ Contents
   an-introduction-to-tags
   the-ex-command
   your-first-task-script
+
+|
+
+.. rst-class:: previous-next-table
+
++-----------------------+--------------------+
+| | Previous section:   | | Next section:    |
+| | |prev-doc|          | | |next-doc|       |
++-----------------------+--------------------+
+
+.. |prev-doc| replace:: :doc:`Section 1 (Getting Started)<../getting-started/index>`
+
+.. |next-doc| replace:: :doc:`Section 3 (More on NPCs)<../more-on-npcs/index>`

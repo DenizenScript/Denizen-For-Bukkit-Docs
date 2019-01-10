@@ -103,3 +103,16 @@ now. What *is* a task script?
 
 .. todo
   Finish this section
+
+|
+
+.. rst-class:: previous-next-table
+
++-------------------+-----------------+
+| | Previous page:  | | Next page:    |
+| | |prev-doc|      | | |next-doc|    |
++-------------------+-----------------+
+
+.. |prev-doc| replace:: :doc:`2.2 (The /ex Command)<the-ex-command>`
+
+.. |next-doc| replace:: :doc:`2.4 (The if Command)<the-if-command>`

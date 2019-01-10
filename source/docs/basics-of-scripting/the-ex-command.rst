@@ -59,3 +59,16 @@ For the rest of Section 2, we will largely use the ``/ex`` command as a minor
 utility. As you continue to advance through the varying obstacles of scripting,
 the ``/ex`` command may prove to be an invaluable assistant. Don't be afraid to
 stretch your imagination!
+
+|
+
+.. rst-class:: previous-next-table
+
++-------------------+-----------------+
+| | Previous page:  | | Next page:    |
+| | |prev-doc|      | | |next-doc|    |
++-------------------+-----------------+
+
+.. |prev-doc| replace:: :doc:`2.1 (An Introduction to Tags)<an-introduction-to-tags>`
+
+.. |next-doc| replace:: :doc:`2.3 (Your First Task Script)<your-first-task-script>`

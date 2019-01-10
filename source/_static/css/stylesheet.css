@@ -2,3 +2,17 @@
     text-align: center;
     font-size: small;
 }
+
+table.previous-next-table {
+    width: 100%;
+    box-shadow: none;
+    border-style: hidden;
+}
+
+table.previous-next-table td {
+    border-style: hidden;
+}
+
+table.previous-next-table td:last-child {
+    text-align: right;
+}

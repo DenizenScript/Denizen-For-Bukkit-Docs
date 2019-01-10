@@ -144,3 +144,16 @@ Always be careful when writing in dScript! If you’re not sure if a particular
 style of formatting works, it is recommended to test the script on a private
 (preferably local) server.
 
+|
+
+.. rst-class:: previous-next-table
+
++-------------------+--------------------+
+| | Previous page:  | | Next section:    |
+| | |prev-doc|      | | |next-doc|       |
++-------------------+--------------------+
+
+.. |prev-doc| replace:: :doc:`1.2 (The Denizen Folder)<denizen-folder>`
+
+.. |next-doc| replace:: :doc:`Section 2 (The Basics of Scripting)<../basics-of-scripting/index>`
+

@@ -11,6 +11,11 @@ Welcome to the Denizen Beginner's Guide! Here, you will learn about the various
 parts of Denizen, how to use them, and how to find success in the endless ways
 to customize your server!
 
+Not sure where to start? No problem! :doc:`Click here
+<docs/getting-started/index>` to jump to the first official page of this guide
+and start reading. The bottom of each page will direct you to the next and
+previous pages of this guide.
+
 .. note::
   This guide largely assumes that you already have a Spigot server set up and
   ready to use.

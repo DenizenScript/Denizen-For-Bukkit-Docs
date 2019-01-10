@@ -34,3 +34,16 @@ where you put all of your scripts, and is the first folder Denizen checks for
 all related scripts. You can create multiple script files in it, along with
 additional subfolders to organize your scripts. Denizen will check every single
 folder and ``.yml`` file in ``./scripts/`` to load all scripts possible!
+
+|
+
+.. rst-class:: previous-next-table
+
++-------------------+-----------------+
+| | Previous page:  | | Next page:    |
+| | |prev-doc|      | | |next-doc|    |
++-------------------+-----------------+
+
+.. |prev-doc| replace:: :doc:`1.1 (Introduction)<introduction>`
+
+.. |next-doc| replace:: :doc:`1.3 (dScript Format)<dscript-format>`
