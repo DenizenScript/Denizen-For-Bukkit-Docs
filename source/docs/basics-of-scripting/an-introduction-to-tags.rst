@@ -107,3 +107,14 @@ you want to look up a full list of tags, you can hop on over to our Discord
 server and start by using ``!t SEARCH_TERM`` (for example, ``!t player.name``).
 Alternatively, you can see the full list of tags at the official documentation
 site’s tag page.
+
+|
+
+.. rst-class:: previous-next-table
+
++------+-----------------+
+|      | | Next page:    |
+|      | | |next-doc|    |
++------+-----------------+
+
+.. |next-doc| replace:: :doc:`2.2 (The /ex Command)<the-ex-command>`
