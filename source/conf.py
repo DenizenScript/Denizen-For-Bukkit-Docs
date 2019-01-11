@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Denizen'
-copyright = '2018, suspic'
-author = 'suspic'
+copyright = '2018-2019 The DenizenScript Team'
+author = 'The DenizenScript Team'
 
 # The short X.Y version
 version = '1.0'
