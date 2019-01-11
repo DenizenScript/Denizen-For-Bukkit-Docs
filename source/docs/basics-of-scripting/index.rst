@@ -16,6 +16,7 @@ Contents
   an-introduction-to-tags
   the-ex-command
   your-first-task-script
+  the-if-command
 
 |
 
@@ -26,6 +27,6 @@ Contents
 | | |prev-doc|          | | |next-doc|       |
 +-----------------------+--------------------+
 
-.. |prev-doc| replace:: :doc:`Section 1 (Getting Started)<../getting-started/index>`
+.. |prev-doc| replace:: :doc:`Section 1 (Getting Started)</docs/getting-started/index>`
 
-.. |next-doc| replace:: :doc:`Section 3 (More on NPCs)<../more-on-npcs/index>`
+.. |next-doc| replace:: :doc:`Section 3 (More on NPCs)</docs/more-on-npcs/index>`

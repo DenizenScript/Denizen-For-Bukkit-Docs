@@ -3,6 +3,19 @@
     font-size: small;
 }
 
+table.table-info-display {
+    width: 100%;
+    box-shadow: none;
+}
+
+table.table-info-display th {
+    background-color: lightblue;
+}
+
+table.table-info-display tr:nth-child(even) {
+    background-color: lightgray;
+}
+
 table.previous-next-table {
     width: 100%;
     box-shadow: none;

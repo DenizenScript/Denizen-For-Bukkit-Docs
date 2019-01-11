@@ -47,4 +47,4 @@ BuildTools page.
 |      | | |next-doc|    |
 +------+-----------------+
 
-.. |next-doc| replace:: :doc:`1.2 (The Denizen Folder)<denizen-folder>`
+.. |next-doc| replace:: :doc:`1.2 (The Denizen Folder)</docs/getting-started/denizen-folder>`
