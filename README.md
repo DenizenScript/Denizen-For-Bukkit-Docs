@@ -15,11 +15,9 @@ Instructions on how to install Sphinx can be found at: http://www.sphinx-doc.org
 
 ### Rebuilding
 
-After Sphinx is installed, you can build by running `sphinx-build -b html source/ build/`
+After Sphinx is installed, you can build by running `sphinx-build -ab html source/ build/`
 
 This will create a fully built static web pages folder in `build/`.
-
-If you made configuration changes, you may want to delete the `build/` folder before building again.
 
 ## Other Tools
 
