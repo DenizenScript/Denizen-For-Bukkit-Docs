@@ -45,7 +45,7 @@ change in Denizen, this guide will update as appropriate, as soon as possible,
 in the context of a beginner's guide.
 
 If you wish to see the full changelog, check out the **GitHub repo**
-(see `Important Links`_). All issue reports should there as well.
+(see `Important Links`_). All issue reports should go there as well.
 
 For a more detailed channel of help and support, consider joining our **Discord
 server**! The invite link is https://discord.gg/Q6pZGSR.

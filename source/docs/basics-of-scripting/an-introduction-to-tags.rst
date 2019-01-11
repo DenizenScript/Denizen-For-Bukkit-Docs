@@ -13,7 +13,7 @@ Before We Start
 ---------------
 
 You were already exposed to tags in :doc:`Section 1.3
-<../getting-started/dscript-format>`, as all of the examples there used tags.
+</docs/getting-started/dscript-format>`, as all of the examples there used tags.
 However, we never quite clarified what they are and what they do. And of course,
 your question by now should be "*What are tags, and what can they do?*"
 
@@ -121,4 +121,4 @@ site\'s tag page`_.
 |      | | |next-doc|    |
 +------+-----------------+
 
-.. |next-doc| replace:: :doc:`2.2 (The /ex Command)<the-ex-command>`
+.. |next-doc| replace:: :doc:`2.2 (The /ex Command)</docs/basics-of-scripting/the-ex-command>`

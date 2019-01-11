@@ -6,7 +6,7 @@ When you first start (or restart) your server with Denizen installed, the
 Denizen folder should be created under ``./plugins/``. When you open your 
 ``./plugins/Denizen/`` folder, you should see something similar to this:
 
-.. image:: ../../_static/images/denizen-directory-1.png
+.. image:: /_static/images/denizen-directory-1.png
   :name: figure1_2_1
   :scale: 60
   :align: center
@@ -44,6 +44,6 @@ folder and ``.yml`` file in ``./scripts/`` to load all scripts possible!
 | | |prev-doc|      | | |next-doc|    |
 +-------------------+-----------------+
 
-.. |prev-doc| replace:: :doc:`1.1 (Introduction)<introduction>`
+.. |prev-doc| replace:: :doc:`1.1 (Introduction)</docs/getting-started/introduction>`
 
-.. |next-doc| replace:: :doc:`1.3 (dScript Format)<dscript-format>`
+.. |next-doc| replace:: :doc:`1.3 (dScript Format)</docs/getting-started/dscript-format>`

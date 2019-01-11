@@ -44,7 +44,8 @@ We know that ``myscript`` is the script's container name. Therefore, all of the
 indented lines underneath "``myscript``" are part of the same script. From
 there, we can tell that the script container type of ``myscript`` is ``task``,
 as indicated by "``type: task``". For a brief explanation on script container
-names and types, refer to :doc:`Section 1.3<../getting-started/dscript-format>`.
+names and types, refer to :doc:`Section 1.3
+</docs/getting-started/dscript-format>`.
 
 This leaves us with one last thing. The ``script`` section and all of the lines
 that start with a dash ``-`` . What are they, and how do they work?
@@ -76,7 +77,7 @@ When you load this script to your server and run it in-game using ``/ex run
 myscript``, you will see those two lines printed to your chat. The image below
 shows the expected result:
 
-.. image:: ../../_static/images/f2.3.3_result-of-f2.3.2.png
+.. image:: /_static/images/f2.3.3_result-of-f2.3.2.png
   :name: figure2_3_3
   :width: 90%
   :align: center
@@ -99,8 +100,26 @@ task script?*
 2. What Are Task Scripts?
 -------------------------
 
-.. todo
-  Finish this section
+Quite simply, task scripts are just script containers with script in it. There
+is no way for a task script to run automatically. This is why you had to use
+``/ex run TASK_SCRIPT_NAME`` to run the contents of each task script while
+in-game. The script command equivalent is ``- run TASK_SCRIPT_NAME``.
+
+To illustrate how useful task scripts are, let's come up with a situation where
+*not* having task scripts would be painful. Imagine having to do something in
+Denizen, and multiple scripts require a certain segment of script to be used
+over and over again. Our first solution is to copy and paste the same 20 lines
+of script over and over again.
+
+Now, imagine that you find out that the lines of script you copied and pasted
+has a bug in it. In order to fully fix the issue, you will need to find every
+line where you had copied and pasted those 20 lines of script. That's just
+unnecessary effort.
+
+Task scripts make it so that instead of copying and pasting multiple lines of
+script, we only ever have to copy and paste one line of script without losing
+any functionality. If there is a bug in the script, you will only ever need to
+edit the task script once and your issue is resolved. Nice, easy, and simple!
 
 |
 
@@ -111,6 +130,6 @@ task script?*
 | | |prev-doc|      | | |next-doc|    |
 +-------------------+-----------------+
 
-.. |prev-doc| replace:: :doc:`2.2 (The /ex Command)<the-ex-command>`
+.. |prev-doc| replace:: :doc:`2.2 (The /ex Command)</docs/basics-of-scripting/the-ex-command>`
 
-.. |next-doc| replace:: :doc:`2.4 (The if Command)<the-if-command>`
+.. |next-doc| replace:: :doc:`2.4 (The if Command)</docs/basics-of-scripting/the-if-command>`

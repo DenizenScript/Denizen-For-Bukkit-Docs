@@ -134,7 +134,7 @@ The example script below demonstrates these conventions well:
 **Figure 1.3.4** An indentation demonstration
 
 In this example, there are **two task scripts** (we will cover what task scripts
-are in :doc:`Section 2.3<../basics-of-scripting/your-first-task-script>`). If
+are in :doc:`Section 2.3</docs/basics-of-scripting/your-first-task-script>`). If
 you were to highlight each script, you would see that each indentation is formed
 using 4 spaces.
 
@@ -163,7 +163,7 @@ dev server.
 | | |prev-doc|      | | |next-doc|       |
 +-------------------+--------------------+
 
-.. |prev-doc| replace:: :doc:`1.2 (The Denizen Folder)<denizen-folder>`
+.. |prev-doc| replace:: :doc:`1.2 (The Denizen Folder)</docs/getting-started/denizen-folder>`
 
-.. |next-doc| replace:: :doc:`Section 2 (The Basics of Scripting)<../basics-of-scripting/index>`
+.. |next-doc| replace:: :doc:`Section 2 (The Basics of Scripting)</docs/basics-of-scripting/index>`
 
