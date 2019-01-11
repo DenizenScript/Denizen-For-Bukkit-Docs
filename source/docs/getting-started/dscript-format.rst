@@ -25,7 +25,7 @@ script.
 
 Putting this together, we get the following:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure1_3_1
   :linenos:
 
@@ -47,7 +47,7 @@ later.
 There may be times when you have a command or a tag that has a space inside of
 it. We have an example script below:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure1_3_2
   :linenos:
   :emphasize-lines: 4
@@ -83,10 +83,10 @@ consider the entire quoted segment as one argument. For example, ``Put me in
 quotes`` is considered 4 arguments while ``"Put me in quotes"`` is seen as only
 one! Below are two acceptable ways to quote an argument.
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure1_3_3
   :linenos:
-  :emphasize-lines: 4-
+  :emphasize-lines: 4-5
 
   a_narrate_command:
       type: task
@@ -115,7 +115,7 @@ recommend that spaces are used to indent lines rather than TABs.
 
 The example script below demonstrates these conventions well:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: _figure1_3_4
   :linenos:
 

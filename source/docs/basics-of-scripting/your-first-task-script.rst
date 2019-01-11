@@ -27,7 +27,7 @@ to know is how they work.
 
 Consider the following script:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure2_3_1
   :linenos:
 
@@ -57,7 +57,7 @@ the script that Denizen should run*. Each line that starts with a ``-`` is a
 Denizen **command**. Each command is run in the order that they are written in.
 Consider the following example:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure2_3_2
   :linenos:
 

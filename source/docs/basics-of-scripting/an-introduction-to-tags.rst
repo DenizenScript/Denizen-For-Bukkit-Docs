@@ -23,7 +23,7 @@ back here and continue this tutorial.
 
 For now, let's look at this example:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure2_1_1
   :linenos:
 
@@ -58,7 +58,7 @@ context of our example, it will return your username.
 But nothing's worth believing without seeing, so let's put it to the test. You
 can use this example:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure2_1_2
   :linenos:
   :emphasize-lines: 5
@@ -85,7 +85,7 @@ unchanging bit of text. For example, let's say we want a random number from 1 to
 We can use the tag ``<util.random.int[1].to[5]>``. If you doubt it, we can
 always test it! Let's use this script as our example:
 
-.. code-block:: yaml
+.. code-block:: dscript
   :name: figure2_1_3
   :linenos:
   :emphasize-lines: 6
