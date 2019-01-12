@@ -3,10 +3,9 @@
 ==========================
 
 This section covers the video "`Setting Up A Local Test Server and Your First
-Task Script`_" by mcmonkey.
+Task Script`__" by mcmonkey.
 
-.. _Setting Up A Local Test Server and Your First Task Script:
-  https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20Your%20First%20Task%20Script
+.. __: https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20Your%20First%20Task%20Script
 
 .. contents::
   :local:

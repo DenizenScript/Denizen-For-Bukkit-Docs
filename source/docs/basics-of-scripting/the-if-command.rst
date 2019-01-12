@@ -2,10 +2,10 @@
 2.4 The If Command
 ==================
 
-This section covers the video "`Alternative\/Dynamic Actions\: The If Command`_" by mcmonkey.
+This section covers the video "`Alternative\/Dynamic Actions\: The If
+Command`__" by mcmonkey.
 
-.. _Alternative\/Dynamic Actions\: The If Command:
-  https://one.denizenscript.com/denizen/vids/Alternate/Dynamic%20Actions:%20The%20If%20Command
+.. __: https://one.denizenscript.com/denizen/vids/Alternate/Dynamic%20Actions:%20The%20If%20Command
 
 .. contents::
   :local:
@@ -58,8 +58,7 @@ commands? How can Denizen know which blocks of script to run and not to run?
 Answering these questions will require an example.
 
 To take a break from task scripts, we'll use a new script type: the world
-script. Don't fret! We'll cover that in the :doc:`next section
-</docs/basics-of-scripting/your-first-world-script>`, :doc:`Section 2.4
+script. Don't fret! We'll cover that in the :doc:`Section 2.6
 </docs/basics-of-scripting/your-first-world-script>`.
 
 Consider the following world script:
@@ -615,4 +614,4 @@ We're ready to brave a new (newer?) frontier!
 
 .. |prev-doc| replace:: :doc:`2.3 (Your First Task Script)</docs/basics-of-scripting/your-first-task-script>`
 
-.. |next-doc| replace:: :doc:`2.5 (Your First World Script)</docs/basics-of-scripting/your-first-world-script>`
+.. |next-doc| replace:: :doc:`2.5 (Memory: Flags and Definitions)</docs/basics-of-scripting/memory-flags-and-definitions>`

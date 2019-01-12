@@ -2,9 +2,9 @@
 2.1 An Introduction to Tags
 ===========================
 
-This section covers the video "`Your First Tags`_" by mcmonkey4eva.
+This section covers the video "`Your First Tags`__" by mcmonkey4eva.
 
-.. _Your First Tags: https://one.denizenscript.com/denizen/vids/Your%20First%20Tags
+.. __: https://one.denizenscript.com/denizen/vids/Your%20First%20Tags
 
 .. contents::
   :local:
