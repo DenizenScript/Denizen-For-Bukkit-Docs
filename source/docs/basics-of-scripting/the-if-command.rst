@@ -505,22 +505,24 @@ Additional information can be found in the :doc:`Glossary</docs/glossary>`.
 
 .. rst-class:: table-info-display
 
-+-----------+------------------------------------------------------------------+
-| Operator  | Description                                                      |
-+===========+==================================================================+
-| ``&&``    | | Checks if every conditional expression evaluates to ``true``.  |
-|           | | If even one condition evaluates to ``false``, then the entire  |
-|           |   expression is evaluated as ``false``.                          |
-+-----------+------------------------------------------------------------------+
-| ``||``    | | Checks if at least one conditional expression evaluates to     |
-|           |   ``true``.                                                      |
-|           | | If all conditions evaluate to ``false``, then the entire       |
-|           |   expression is evaluated as ``false``.                          |
-+-----------+------------------------------------------------------------------+
-| ``!``     | | Takes a boolean value and returns the opposite boolean value.  |
-|           | | ``!true`` evaluates to ``false``.                              |
-|           | | ``!false`` evaluates to ``true``.                              |
-+-----------+------------------------------------------------------------------+
++-----------+---------+--------------------------------------------------------+
+| Operator  | Name    |Description                                             |
++===========+=========+========================================================+
+| ``&&``    | ``AND`` | | Checks if every conditional expression evaluates to  |
+|           |         |   ``true``.                                            |
+|           |         | | If even one condition evaluates to ``false``, then   |
+|           |         |   the entire expression is evaluated as ``false``.     |
++-----------+---------+--------------------------------------------------------+
+| ``||``    | ``OR``  | | Checks if at least one conditional expression        |
+|           |         |   evaluates to ``true``.                               |
+|           |         | | If all conditions evaluate to ``false``, then the    |
+|           |         |   entire expression is evaluated as ``false``.         |
++-----------+---------+--------------------------------------------------------+
+| ``!``     | ``NOT`` | | Takes a boolean value and returns the opposite       |
+|           |         |   boolean value.                                       |
+|           |         | | ``!true`` evaluates to ``false``.                    |
+|           |         | | ``!false`` evaluates to ``true``.                    |
++-----------+---------+--------------------------------------------------------+
 
 |
 
