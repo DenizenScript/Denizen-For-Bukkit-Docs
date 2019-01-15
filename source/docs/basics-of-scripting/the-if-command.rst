@@ -604,16 +604,3 @@ create a dynamic bit of script that can react differently depending on the
 situation. You can make your script as complex or simple as you want!
 
 We're ready to brave a new (newer?) frontier!
-
-|
-
-.. rst-class:: previous-next-table
-
-+-------------------+-----------------+
-| | Previous page:  | | Next page:    |
-| | |prev-doc|      | | |next-doc|    |
-+-------------------+-----------------+
-
-.. |prev-doc| replace:: :doc:`2.3 (Your First Task Script)</docs/basics-of-scripting/your-first-task-script>`
-
-.. |next-doc| replace:: :doc:`2.5 (Memory: Flags and Definitions)</docs/basics-of-scripting/memory-flags-and-definitions>`

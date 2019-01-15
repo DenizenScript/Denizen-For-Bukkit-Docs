@@ -119,16 +119,3 @@ Task scripts make it so that instead of copying and pasting multiple lines of
 script, we only ever have to copy and paste one line of script without losing
 any functionality. If there is a bug in the script, you will only ever need to
 edit the task script once and your issue is resolved. Nice, easy, and simple!
-
-|
-
-.. rst-class:: previous-next-table
-
-+-------------------+-----------------+
-| | Previous page:  | | Next page:    |
-| | |prev-doc|      | | |next-doc|    |
-+-------------------+-----------------+
-
-.. |prev-doc| replace:: :doc:`2.2 (The /ex Command)</docs/basics-of-scripting/the-ex-command>`
-
-.. |next-doc| replace:: :doc:`2.4 (The if Command)</docs/basics-of-scripting/the-if-command>`

@@ -111,14 +111,3 @@ Alternatively, you can see the full list of tags at the `official documentation
 site\'s tag page`_.
 
 .. _official documentation site\'s tag page: https://one.denizenscript.com/denizen/tags
-
-|
-
-.. rst-class:: previous-next-table
-
-+------+-----------------+
-|      | | Next page:    |
-|      | | |next-doc|    |
-+------+-----------------+
-
-.. |next-doc| replace:: :doc:`2.2 (The /ex Command)</docs/basics-of-scripting/the-ex-command>`

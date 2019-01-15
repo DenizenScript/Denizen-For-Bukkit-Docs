@@ -36,15 +36,6 @@ recommended. We will cover more of this in :doc:`Section 1.3 (dScript Format)
 For now, we will assume that you already have a server ready for scripting. If
 you don't, consider setting up a local server. You can download BuildTools and
 view instructions on how to build your own Spigot JAR file on the official
-BuildTools page.
+`BuildTools`__ wiki page.
 
-|
-
-.. rst-class:: previous-next-table
-
-+------+-----------------+
-|      | | Next page:    |
-|      | | |next-doc|    |
-+------+-----------------+
-
-.. |next-doc| replace:: :doc:`1.2 (The Denizen Folder)</docs/getting-started/denizen-folder>`
+.. __: https://www.spigotmc.org/wiki/buildtools/

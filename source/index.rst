@@ -29,10 +29,17 @@ Contents
 .. toctree::
   :maxdepth: 2
   :titlesonly:
+  :caption: Text Tutorials
 
   docs/getting-started/index
   docs/basics-of-scripting/index
   docs/more-on-npcs/index
+
+.. toctree::
+  :maxdepth: 2
+  :titlesonly:
+  :caption: References
+
   docs/glossary
 
 Updates to this Beginner's Guide
@@ -70,13 +77,13 @@ Important Links
 ===============
 
 | Spigot Page: https://www.spigotmc.org/resources/denizen.21039/
-| Discord Server: https://discord.gg/Q6pZGSR 
-| Forums: https://forum.denizenscript.com/ 
-| Denizen Site: https://denizenscript.com/ 
-| Documentation: https://one.denizenscript.com/denizen/logs/ 
+| Discord Server: https://discord.gg/Q6pZGSR
+| Forums: https://forum.denizenscript.com/
+| Denizen Site: https://denizenscript.com/
+| Documentation: https://one.denizenscript.com/denizen/logs/
 | GitHub repo: https://github.com/DenizenScript/Denizen-For-Bukkit
 | Tutorial Videos: https://one.denizenscript.com/denizen/vids/
-| Release Builds: http://ci.citizensnpcs.co/job/Denizen/ 
-| Developmental Builds: http://ci.citizensnpcs.co/job/Denizen_Developmental/ 
-| Citizens2 (optional): https://github.com/CitizensDev/Citizens2/ 
-| Depenizen (optional): https://github.com/DenizenScript/Depenizen-For-Bukkit 
+| Release Builds: http://ci.citizensnpcs.co/job/Denizen/
+| Developmental Builds: http://ci.citizensnpcs.co/job/Denizen_Developmental/
+| Citizens2 (optional): https://github.com/CitizensDev/Citizens2/
+| Depenizen (optional): https://github.com/DenizenScript/Depenizen-For-Bukkit
