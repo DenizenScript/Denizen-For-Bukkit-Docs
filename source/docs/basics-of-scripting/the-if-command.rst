@@ -10,13 +10,13 @@ Command`__" by mcmonkey.
 .. contents:: Table of Contents
   :local:
 
-.. note::
+.. admonition:: Syntax Updated
   
   The video uses the old, deprecated braced syntax. The modern syntax uses
   colons and proper indentation. We will still use the example found in the
   video, but corrected to reflect the new modern syntax.
 
-.. note::
+.. admonition:: Syntax Updated
 
   At the time the video was made, grouping of logical expressions was not
   available in Denizen. Currently, grouping *is* available to use. That is

@@ -10,7 +10,7 @@ Task Script`__" by mcmonkey.
 .. contents:: Table of Contents
   :local:
 
-.. note::
+.. attention::
   
   The beginning part of the video contains outdated information. You should not
   be downloading or using Craftbukkit. Instead, use the latest Spigot builds.
