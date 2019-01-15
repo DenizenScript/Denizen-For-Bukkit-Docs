@@ -7,7 +7,7 @@ Task Script`__" by mcmonkey.
 
 .. __: https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20Your%20First%20Task%20Script
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 .. note::

@@ -2,7 +2,7 @@
 2.2 The ``/ex`` Command
 =======================
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 Before We Start

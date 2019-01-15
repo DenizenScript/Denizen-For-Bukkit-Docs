@@ -6,7 +6,7 @@ This section covers the video "`Your First Tags`__" by mcmonkey4eva.
 
 .. __: https://one.denizenscript.com/denizen/vids/Your%20First%20Tags
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 Before We Start

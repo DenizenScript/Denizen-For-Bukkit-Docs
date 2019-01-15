@@ -6,7 +6,7 @@ When scripting, it is important to follow the dScript format as closely as
 possible to avoid parsing errors, unintended behaviors, or other mishaps that
 may arise.
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 1. Basic Script Structure

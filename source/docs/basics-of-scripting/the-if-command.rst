@@ -7,7 +7,7 @@ Command`__" by mcmonkey.
 
 .. __: https://one.denizenscript.com/denizen/vids/Alternate/Dynamic%20Actions:%20The%20If%20Command
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 .. note::
