@@ -118,8 +118,10 @@ on to the next unindented command.
 In :ref:`Figure 2.4.1<figure2_4_1>`, our ``if`` command is given the boolean
 value ``true``, so it runs its script block. Then Denizen reaches the ``else``
 command. Remember what we said about the ``else`` command and when it runs. Did
-the ``if`` command's arguments resolve to ``false``? No. Since every condition
-did not fail, the ``else`` command's script block cannot run.
+the ``if`` command's arguments resolve to ``false``?
+
+No. Since every condition did not fail, the ``else`` command's script block
+cannot run.
 
 If you feel so inclined, you can replace the ``true`` with a ``false`` and
 re-run the script. Then, you will see that the ``if`` command's script block

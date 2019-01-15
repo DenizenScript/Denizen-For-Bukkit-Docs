@@ -67,9 +67,9 @@ in the debug printed to your console. But we wanted it to say out "``My whole
 sentence is great, isn't it YOUR_USERNAME!``" Why didn't it do what we wanted it
 to do?
 
-Each space is considered a "separator" between multiple arguments. The narrate
-command only needs one argument (it can take a second argument, but that
-argument has a special prefix so we can ignore it for now).
+Each space is considered a "separator" between multiple arguments. The
+``narrate`` command only needs one argument (it can take a second argument, but
+that argument has a special prefix so we can ignore it for now).
 
 To Denizen, we've given it 7 different arguments and an open quote! It reads the
 first "argument" properly, but every "argument" afterwards is ignored and seen
