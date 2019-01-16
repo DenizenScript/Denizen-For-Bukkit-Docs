@@ -35,8 +35,8 @@ To anyone starting Denizen, this is the opportunity of the lifetime. A surefire
 fan favorite, the ``if`` command will help us accomplish what has already been
 accomplished in countless programs.
 
-1. A First Look at the ``if`` Command
--------------------------------------
+1. A First Look at the If Command
+---------------------------------
 
 The ``if`` command allows our script to react in dynamic ways. Essentially, it
 will run its associated script block *only if certain conditions are met*. If
@@ -131,8 +131,7 @@ Of course, the unindented ``narrate`` and ``determine`` commands are not
 associated with either the ``if`` or ``else`` commands, so they run regardless
 of the result of either the ``if`` or ``else`` command.
 
-2. How to Write an ``if``/``else`` Block
-----------------------------------------
+2. How to Write an If/Else Block
 
 As you were looking back at :ref:`Figure 2.4.1<figure2_4_1>`, you should have
 noticed three things.
@@ -196,8 +195,8 @@ script blocks that run based on a variety of conditions? Putting ``if``/``else``
 commands inside of other ``if``/``else`` commands seems like a pain. So... let's
 put the two commands together!
 
-3. The Middle Ground: ``else if``
----------------------------------
+3. The Middle Ground: Else If
+-----------------------------
 
 If you thought we were going to introduce another command, you're wrong. We're
 going to reuse the ``else`` command and transform it into its middle ground,
@@ -352,8 +351,8 @@ ever has a maximum of one ``if`` and one ``else`` command.
 
 .. _2-4-5_complex-if-else-if-conditions:
 
-5. Complex ``if``/``else if`` Conditions
-----------------------------------------
+5. Complex If/Else If Conditions
+--------------------------------
 
 When all's said and done, we still haven't really covered something important.
 I said that the arguments of the ``if`` and ``else if`` commands must

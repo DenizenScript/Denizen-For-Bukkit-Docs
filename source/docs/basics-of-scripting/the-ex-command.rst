@@ -1,6 +1,6 @@
-=======================
-2.2 The ``/ex`` Command
-=======================
+=====================
+2.2 The "/ex" Command
+=====================
 
 .. contents:: Table of Contents
   :local:
@@ -12,8 +12,8 @@ We used the ``/ex`` command once, in :doc:`Section 2.1
 </docs/basics-of-scripting/an-introduction-to-tags>`. It seems important,
 doesn't it? If you expected me to say that it's not important, *you're wrong*.
 
-1. What the ``/ex`` Command Is
-------------------------------
+1. What the "/ex" Command Is
+----------------------------
 
 The ``/ex`` command will be a critical part of your Denizen experience. It can
 run scripts for you, let you test a command or two, and possibly save you in a
