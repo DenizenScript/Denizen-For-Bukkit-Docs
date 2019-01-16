@@ -59,7 +59,7 @@ it. We have an example script below:
 
 .. rst-class:: figurecaption
 
-**Figure 1.3.2** An improperly written ``narrate`` command
+**Figure 1.3.2** An improperly written :guilabel:`narrate` command
 
 When you put this script in your ``./scripts/`` folder and attempt to run it,
 you will just see "``My``" in your chat, and probably a couple of weird things
@@ -68,8 +68,8 @@ sentence is great, isn't it YOUR_USERNAME!``" Why didn't it do what we wanted it
 to do?
 
 Each space is considered a "separator" between multiple arguments. The
-``narrate`` command only needs one argument (it can take a second argument, but
-that argument has a special prefix so we can ignore it for now).
+:guilabel:`narrate` command only needs one argument (it can take a second
+argument, but that argument has a special prefix so we can ignore it for now).
 
 To Denizen, we've given it 7 different arguments and an open quote! It reads the
 first "argument" properly, but every "argument" afterwards is ignored and seen
@@ -141,8 +141,8 @@ using 4 spaces.
 Indentation clearly tells Denizen which are script containers (the lines that
 are not indented) and what belongs to each script container (the lines that are
 indented). Indentation will also serve to clearly differentiate sections of
-script associated with particular relevant commands (for example, ``if`` and
-``foreach``).
+script associated with particular relevant commands (for example, :guilabel:`if`
+and :guilabel:`foreach`).
 
 .. note::
 

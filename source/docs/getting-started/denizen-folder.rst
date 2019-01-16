@@ -24,10 +24,10 @@ script.
 
 You can drag and drop ``.schematic`` files into the ``./schematics/`` folder and
 ``.mid`` files into the ``./midi/`` folder. The files in those folders are
-directly used by the ``schematic`` and ``midi`` commands, where the
-``schematic`` command can save and load ``.schematic`` files to the
-``./schematics/`` folder and the ``midi`` command can play ``.mid`` files
-directly from the ``./midi/`` folder.
+directly used by the :guilabel:`schematic` and :guilabel:`midi` commands, where 
+the :guilabel:`schematic` command can save and load ``.schematic`` files to the
+``./schematics/`` folder and the :guilabel:`midi` command can play ``.mid``
+files directly from the ``./midi/`` folder.
 
 And finally, the most important folder of all: ``./scripts/``! This folder is
 where you put all of your scripts, and is the first folder Denizen checks for
