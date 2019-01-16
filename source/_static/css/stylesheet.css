@@ -12,10 +12,6 @@ table.table-info-display th {
     background-color: lightblue;
 }
 
-table.table-info-display tr:nth-child(even) {
-    background-color: lightgray;
-}
-
 pre {
     background-color: #EEEEEE;
 }
