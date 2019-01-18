@@ -26,7 +26,6 @@ list of commonly used operators.
 
 +-------------+-------------+--------------------------------------------------+
 | Operator    | Alternative | Description                                      |
-|             | Version     |                                                  |
 +=============+=============+==================================================+
 | ``==``      | ``EQUALS``  | Checks to see if two values are **completely     |
 |             |             | equal** to each other.                           |
@@ -115,7 +114,7 @@ Grouping can be achieved using parentheses. Example:
       - else:
           - narrate fail
 
-.. note::
+.. important::
 
   There *must* be a space separating the parentheses from the other arguments
   for Denizen to recognize the grouping.
