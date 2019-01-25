@@ -47,4 +47,4 @@ view instructions on how to build your own Spigot JAR file on the official
   Denizen 1.x for Bukkit/Spigot. There are other versions of Denizen, including
   Denizen 2.x, which works as a desktop console program and as well on the
   Sponge minecraft server platform. If you use Sponge, see the `Denizen 2 Meta
-  Docs<https://meta.denizenscript.com/>`_ for information on that.
+  Docs <https://meta.denizenscript.com/>`_ for information on that.
