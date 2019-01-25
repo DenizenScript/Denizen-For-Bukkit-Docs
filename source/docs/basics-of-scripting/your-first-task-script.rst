@@ -1,5 +1,5 @@
 ==========================
-2.3 Your First Task Script
+2.4 Your First Task Script
 ==========================
 
 This section covers the video "`Setting Up A Local Test Server and Your First
@@ -27,7 +27,7 @@ to know is how they work.
 Consider the following script:
 
 .. code-block:: dscript
-  :name: figure2_3_1
+  :name: figure2_4_1
   :linenos:
 
   myscript:
@@ -37,7 +37,7 @@ Consider the following script:
 
 .. rst-class:: figurecaption
 
-**Figure 2.3.1** A simple task script
+**Figure 2.4.1** A simple task script
 
 We know that ``myscript`` is the script's container name. Therefore, all of the
 indented lines underneath "``myscript``" are part of the same script. From
@@ -58,7 +58,7 @@ Denizen **command**. Each command is run in the order that they are written in.
 Consider the following example:
 
 .. code-block:: dscript
-  :name: figure2_3_2
+  :name: figure2_4_2
   :linenos:
 
   myscript:
@@ -70,22 +70,22 @@ Consider the following example:
 
 .. rst-class:: figurecaption
 
-**Figure 2.3.2** A task script with two commands
+**Figure 2.4.2** A task script with two commands
 
 When you load this script to your server and run it in-game using ``/ex run
 myscript``, you will see those two lines printed to your chat. The image below
 shows the expected result:
 
 .. image:: /_static/images/f2.3.3_result-of-f2.3.2.png
-  :name: figure2_3_3
+  :name: figure2_4_3
   :width: 90%
   :align: center
   :alt: result of figure 2.3.2
 
 .. rst-class:: figurecaption
 
-**Figure 2.3.3** The expected results when running the script in :ref:`Figure
-2.3.2<figure2_3_2>`
+**Figure 2.4.3** The expected results when running the script in :ref:`Figure
+2.4.2<figure2_4_2>`
 
 As you can see, the script runs every command in order. This is true for every
 type of Denizen script, not just task scripts. So don't worry about a script

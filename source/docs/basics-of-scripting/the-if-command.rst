@@ -1,5 +1,5 @@
 ==================
-2.4 The If Command
+2.5 The If Command
 ==================
 
 This section covers the video "`Alternative\/Dynamic Actions\: The If
@@ -20,8 +20,8 @@ Command`__" by mcmonkey.
 
   At the time the video was made, grouping of logical expressions was not
   available in Denizen. Currently, grouping *is* available to use. That is
-  covered by this guide, in the third part of :ref:`Part 5: Complex "if"/"else
-  if" Conditions <2-4-5_complex-if-else-if-conditions>`.
+  covered by this guide, in the third part of :ref:`Part 5: Complex If/Else If
+  Conditions<2-5-5_complex-if-else-if-conditions>`.
 
 Before We Start
 ---------------
@@ -58,13 +58,13 @@ these two commands? How can Denizen know which blocks of script to run and not
 to run? Answering these questions will require an example.
 
 To take a break from task scripts, we'll use a new script type: the world
-script. Don't fret! We'll cover that in the :doc:`Section 2.6
+script. Don't fret! We'll cover that in the :doc:`Section 2.7
 </docs/basics-of-scripting/your-first-world-script>`.
 
 Consider the following world script:
 
 .. code-block:: dscript
-  :name: figure2_4_1
+  :name: figure2_5_1
   :linenos:
   :emphasize-lines: 5-8
 
@@ -81,7 +81,7 @@ Consider the following world script:
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.1** A world script using :guilabel:`if`/:guilabel:`else` commands
+**Figure 2.5.1** A world script using :guilabel:`if`/:guilabel:`else` commands
 
 Unlike our previous examples, this script can be tested without using ``/ex run
 SCRIPT_CONTAINER_NAME``. This script will automatically run whenever you break a
@@ -92,22 +92,22 @@ So you can go ham on that block, but stay with us.
 When you break a sand block, you should expect to see something like this:
 
 .. image:: /_static/images/f2.4.2_result-of-f2.4.1.png
-  :name: figure2_4_2
+  :name: figure2_5_2
   :width: 90%
   :align: center
   :alt: result of figure 2.4.1
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.2** The expected results when running the script in :ref:`Figure
-2.4.1<figure2_4_1>`
+**Figure 2.5.2** The expected results when running the script in :ref:`Figure
+2.4.1<figure2_5_1>`
 
 There's something missing, isn't there? You should notice that ``- narrate
 fail`` never ran. Why is that? We specifically wrote that in there, so why did
 it do nothing? Did I just trick you into a useless switch scenario? ... Yes I
 did, but let me explain.
 
-Take a look closer at our script in :ref:`Figure 2.4.1<figure2_4_1>`. The
+Take a look closer at our script in :ref:`Figure 2.5.1<figure2_5_1>`. The
 :guilabel:`if` command has the argument "``true``". This is a **boolean** value.
 Every :guilabel:`if` command's arguments must eventually resolve into a boolean
 value, which can be either **true** or **false**. If the conditions in the
@@ -115,7 +115,7 @@ value, which can be either **true** or **false**. If the conditions in the
 script block associated with that :guilabel:`if` command runs. Otherwise, that
 script block doesn't run, and Denizen moves on to the next unindented command.
 
-In :ref:`Figure 2.4.1<figure2_4_1>`, our :guilabel:`if` command is given the
+In :ref:`Figure 2.5.1<figure2_5_1>`, our :guilabel:`if` command is given the
 boolean value ``true``, so it runs its script block. Then Denizen reaches the
 :guilabel:`else` command. Remember what we said about the :guilabel:`else`
 command and when it runs. Did the :guilabel:`if` command's arguments resolve to
@@ -136,7 +136,7 @@ so they run regardless of the result of either the :guilabel:`if` or
 2. How to Write an If/Else Block
 --------------------------------
 
-As you were looking back at :ref:`Figure 2.4.1<figure2_4_1>`, you should have
+As you were looking back at :ref:`Figure 2.5.1<figure2_5_1>`, you should have
 noticed three things.
 
 1. Indentation is used to indicate which lines of script are associated with the
@@ -161,7 +161,7 @@ in between the :guilabel:`else` and :guilabel:`if`, as that will cause the
 make this a little more clear, let's look at the following script snippet:
 
 .. code-block:: dscript
-  :name: figure2_4_3
+  :name: figure2_5_3
   :linenos:
   :emphasize-lines: 3
 
@@ -174,7 +174,7 @@ make this a little more clear, let's look at the following script snippet:
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.3** A malformed :guilabel:`if`/:guilabel:`else` block
+**Figure 2.5.3** A malformed :guilabel:`if`/:guilabel:`else` block
 
 When the :guilabel:`else` command is run in the above example, it looks for the
 very first command above itself that has the same indentation. That very first
@@ -212,11 +212,11 @@ ground, an :guilabel:`else if`. The :guilabel:`else if` does rely on an
 Only after every :guilabel:`if` and :guilabel:`else if` fail will the
 :guilabel:`else` command run.
 
-We're going to modify :ref:`Figure 2.4.1<figure2_4_1>` a bit. Consider this
+We're going to modify :ref:`Figure 2.5.1<figure2_5_1>` a bit. Consider this
 edit:
 
 .. code-block:: dscript
-  :name: figure2_4_4
+  :name: figure2_5_4
   :linenos:
   :emphasize-lines: 5,7-8
 
@@ -235,7 +235,7 @@ edit:
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.4** A world script using an
+**Figure 2.5.4** A world script using an
 :guilabel:`if`/:guilabel:`else if`/:guilabel:`else` chain
 
 We know that the :guilabel:`if` command fails, since its condition resolves to
@@ -270,7 +270,7 @@ itself!
 The following figures demonstrate this well.
 
 .. code-block:: dscript
-  :name: figure2_4_5
+  :name: figure2_5_5
   :linenos:
   
   no_else_or_else_ifs:
@@ -281,10 +281,10 @@ The following figures demonstrate this well.
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.5** An :guilabel:`if` command by itself
+**Figure 2.5.5** An :guilabel:`if` command by itself
 
 .. code-block:: dscript
-  :name: figure2_4_6
+  :name: figure2_5_6
   :linenos:
   
   no_else_ifs:
@@ -297,10 +297,10 @@ The following figures demonstrate this well.
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.6** An :guilabel:`if`/:guilabel:`else` chain
+**Figure 2.5.6** An :guilabel:`if`/:guilabel:`else` chain
 
 .. code-block:: dscript
-  :name: figure2_4_7
+  :name: figure2_5_7
   :linenos:
   
   no_else:
@@ -313,10 +313,10 @@ The following figures demonstrate this well.
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.7** An :guilabel:`if`/:guilabel:`else if` chain
+**Figure 2.5.7** An :guilabel:`if`/:guilabel:`else if` chain
 
 .. code-block:: dscript
-  :name: figure2_4_8
+  :name: figure2_5_8
   :linenos:
   
   many_else_ifs_no_else:
@@ -335,11 +335,11 @@ The following figures demonstrate this well.
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.8** An :guilabel:`if`/:guilabel:`else if` chain with multiple
+**Figure 2.5.8** An :guilabel:`if`/:guilabel:`else if` chain with multiple
 :guilabel:`else if` commands
   
 .. code-block:: dscript
-  :name: figure2_4_9
+  :name: figure2_5_9
   :linenos:
   
   many_else_ifs:
@@ -356,14 +356,14 @@ The following figures demonstrate this well.
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.9** An :guilabel:`if`/:guilabel:`else if`/:guilabel:`else` chain
+**Figure 2.5.9** An :guilabel:`if`/:guilabel:`else if`/:guilabel:`else` chain
 with multiple :guilabel:`else if` commands
 
 Note that in all of the examples, each
 :guilabel:`if`/:guilabel:`else if`/:guilabel:`else` chain only ever has a
 maximum of one :guilabel:`if` and one :guilabel:`else` command.
 
-.. _2-4-5_complex-if-else-if-conditions:
+.. _2-5-5_complex-if-else-if-conditions:
 
 5. Complex If/Else If Conditions
 --------------------------------
@@ -386,10 +386,10 @@ In general, there are two ways to write a condition for the :guilabel:`if`
 command. It can either be one value that resolves to ``true`` or ``false``, or a
 value being compared to another.
 
-Consider this modification on :ref:`Figure 2.4.1<figure2_4_1>`:
+Consider this modification on :ref:`Figure 2.5.1<figure2_5_1>`:
 
 .. code-block:: dscript
-  :name: figure2_4_10
+  :name: figure2_5_10
   :linenos:
   :emphasize-lines: 5
 
@@ -406,7 +406,7 @@ Consider this modification on :ref:`Figure 2.4.1<figure2_4_1>`:
   
 .. rst-class:: figurecaption
 
-**Figure 2.4.10** An :guilabel:`if` command comparing a tag to a number
+**Figure 2.5.10** An :guilabel:`if` command comparing a tag to a number
 
 If you recall from :doc:`Section 2.1
 </docs/basics-of-scripting/an-introduction-to-tags>`, the
@@ -474,10 +474,10 @@ Cool beans. Now we have an impressive arsenal of comparisons at our disposal.
 But... what if we want to do *multiple comparisons at once*? Well, you're in
 luck. That can be accomplished using **logical operators**!
 
-Consider this modification on :ref:`Figure 2.4.10<figure2_4_10>`:
+Consider this modification on :ref:`Figure 2.5.10<figure2_5_10>`:
 
 .. code-block:: dscript
-  :name: figure2_4_11
+  :name: figure2_5_11
   :linenos:
   :emphasize-lines: 5
 
@@ -494,7 +494,7 @@ Consider this modification on :ref:`Figure 2.4.10<figure2_4_10>`:
   
 .. rst-class:: figurecaption
 
-**Figure 2.4.11** An :guilabel:`if` command using a logical operator
+**Figure 2.5.11** An :guilabel:`if` command using a logical operator
 
 We have two comparisons here. We are seeing if ``3`` is exactly equal to ``3``,
 and if ``4`` is exactly equal to ``4``. So what is the ``&&`` doing? Well, go
@@ -552,7 +552,7 @@ We absolutely can! But with what we know right now, that isn't possible.
 Consider the following script snippet:
 
 .. code-block:: dscript
-  :name: figure2_4_12
+  :name: figure2_5_12
   :linenos:
   
   - if true && true || false:
@@ -560,7 +560,7 @@ Consider the following script snippet:
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.12** An illegal logical expression
+**Figure 2.5.12** An illegal logical expression
 
 What is Denizen supposed to do? We have two logical operators that act in
 completely opposite ways. We might say, "Just go left to right!" But Denizen
@@ -572,11 +572,11 @@ would it not make sense if we could *separate the entire logical expression into
 multiple parts*? That's what grouping does. It separates the expression into
 subparts that are evaluated first.
 
-We're going to have our way with :ref:`Figure 2.4.1<figure2_4_1>` just one more
+We're going to have our way with :ref:`Figure 2.5.1<figure2_5_1>` just one more
 time. Consider this edit:
 
 .. code-block:: dscript
-  :name: figure2_4_13
+  :name: figure2_5_13
   :linenos:
   :emphasize-lines: 5
 
@@ -593,7 +593,7 @@ time. Consider this edit:
 
 .. rst-class:: figurecaption
 
-**Figure 2.4.13** Grouping a logical expression together
+**Figure 2.5.13** Grouping a logical expression together
 
 When Denizen parses this script, it will see that the logical expression ``true
 || false`` should be evaluated first. The following is an approximate depiction
