@@ -46,11 +46,15 @@ document will become obsolete. Whenever there is a syntactical or technical
 change in Denizen, this guide will update as appropriate, as soon as possible,
 in the context of a beginner's guide.
 
-If you wish to see the full changelog, check out the **GitHub repo**
-(see `Important Links`_). All issue reports should go there as well.
+If you wish to see the full changelog for this guide, or contribute improvements
+to it, see the `Docs GitHub Repo <https://github.com/DenizenScript/Denizen-For-Bukkit-Docs>`_.
+Any issue reports relating to this guide specifically go there.
 
-For a more detailed channel of help and support, consider joining our **Discord
-server**! The invite link is https://discord.gg/Q6pZGSR.
+You can post issues relating to Denizen itself and view changes to Denizen on
+the `Denizen GitHub Repo <https://github.com/DenizenScript/Denizen-For-Bukkit>`_.
+
+For a more detailed channel of help and support, consider joining our **Discord**!
+The invite link is https://discord.gg/Q6pZGSR.
 
 The tutorial videos are still a good place to learn Denizen in an interactive
 manner. Videos 2-13 and 15-27 will be covered by this guide. If you want to
@@ -73,7 +77,7 @@ Important Links
 
 **Other helpful Denizen learning resources:**
 
-| **Discord** - Chat with us!: https://discord.gg/Q6pZGSR
+| **Discord** - Chat with us: https://discord.gg/Q6pZGSR
 | **Forum** - Share scripts and slow chatter: https://forum.denizenscript.com/
 | **Denizen Script Home Page** - A general home page with links like these: https://denizenscript.com/
 | **Meta Documentation** - Individual command/tag/etc. docs: https://one.denizenscript.com/denizen/logs/
@@ -88,6 +92,6 @@ Important Links
 
 **Other projects that go alongside Denizen:**
 
-| **Citizens2** - Used for NPC integration: https://github.com/CitizensDev/Citizens2/
-| **Depenizen** - Used to integrate Denizen with various other plugins: https://github.com/DenizenScript/Depenizen-For-Bukkit
+| **Citizens2** - Used for NPC integration: https://github.com/CitizensDev/Citizens2/blob/master/README.md
+| **Depenizen** - Used to integrate Denizen with various other plugins: https://github.com/DenizenScript/Depenizen/blob/master/README.md
 | **DenizenScript org on GitHub** - Has a few other projects of note, such as Webizen and dDiscordBot: https://github.com/DenizenScript
