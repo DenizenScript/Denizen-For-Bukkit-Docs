@@ -1,5 +1,5 @@
 =====================
-2.2 The "/ex" Command
+2.3 The "/ex" Command
 =====================
 
 .. contents:: Table of Contents
@@ -30,13 +30,13 @@ To give you a perspective as to how dangerous it can be in the wrong hands,
 consider the following command:
 
 .. code::
-  :name: figure2_2_1
+  :name: figure2_3_1
 
   /ex execute as_server "op <player.name>"
 
 .. rst-class:: figurecaption
 
-**Figure 2.2.1** A way for someone to give themselves operator status using the
+**Figure 2.3.1** A way for someone to give themselves operator status using the
 ``/ex`` command
 
 This will run the command ``/op PLAYER_USERNAME`` from the console, effectively
