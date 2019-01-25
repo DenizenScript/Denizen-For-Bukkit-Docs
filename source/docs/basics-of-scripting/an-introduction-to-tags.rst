@@ -2,11 +2,11 @@
 2.1 An Introduction to Tags
 ===========================
 
-This section covers the video "`Your First Tags`_" by mcmonkey4eva.
+This section covers the video "`Your First Tags`__" by mcmonkey4eva.
 
-.. _Your First Tags: https://one.denizenscript.com/denizen/vids/Your%20First%20Tags
+.. __: https://one.denizenscript.com/denizen/vids/Your%20First%20Tags
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 Before We Start
@@ -111,14 +111,3 @@ Alternatively, you can see the full list of tags at the `official documentation
 site\'s tag page`_.
 
 .. _official documentation site\'s tag page: https://one.denizenscript.com/denizen/tags
-
-|
-
-.. rst-class:: previous-next-table
-
-+------+-----------------+
-|      | | Next page:    |
-|      | | |next-doc|    |
-+------+-----------------+
-
-.. |next-doc| replace:: :doc:`2.2 (The /ex Command)</docs/basics-of-scripting/the-ex-command>`

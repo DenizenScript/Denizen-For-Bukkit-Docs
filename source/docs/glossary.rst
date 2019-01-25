@@ -26,7 +26,6 @@ list of commonly used operators.
 
 +-------------+-------------+--------------------------------------------------+
 | Operator    | Alternative | Description                                      |
-|             | Version     |                                                  |
 +=============+=============+==================================================+
 | ``==``      | ``EQUALS``  | Checks to see if two values are **completely     |
 |             |             | equal** to each other.                           |
@@ -69,30 +68,30 @@ Logical Operators
 
 Logical operators **takes the result of one or more logical expressions** and
 evaluates the combined expression to a boolean value.
+  
+A single combination of expressions can only use one type of logical operator.
+Using a mix of both logical operators requires grouping.
 
 .. rst-class:: table-info-display
 
-+-----------+------------------------------------------------------------------+
-| Operator  | Description                                                      |
-+===========+==================================================================+
-| ``&&``    | | Checks if every conditional expression evaluates to ``true``.  |
-|           | | If even one condition evaluates to ``false``, then the entire  |
-|           |   expression is evaluated as ``false``.                          |
-+-----------+------------------------------------------------------------------+
-| ``||``    | | Checks if at least one conditional expression evaluates to     |
-|           |   ``true``.                                                      |
-|           | | If all conditions evaluate to ``false``, then the entire       |
-|           |   expression is evaluated as ``false``.                          |
-+-----------+------------------------------------------------------------------+
-| ``!``     | | Takes a boolean value and returns the opposite boolean value.  |
-|           | | ``!true`` evaluates to ``false``.                              |
-|           | | ``!false`` evaluates to ``true``.                              |
-+-----------+------------------------------------------------------------------+
-
-.. note::
-  
-  A single combination of expressions can only use one type of logical operator.
-  Using a mix of both logical operators requires grouping.
++-----------+---------+--------------------------------------------------------+
+| Operator  | Name    |Description                                             |
++===========+=========+========================================================+
+| ``&&``    | ``AND`` | | Checks if every conditional expression evaluates to  |
+|           |         |   ``true``.                                            |
+|           |         | | If even one condition evaluates to ``false``, then   |
+|           |         |   the entire expression is evaluated as ``false``.     |
++-----------+---------+--------------------------------------------------------+
+| ``||``    | ``OR``  | | Checks if at least one conditional expression        |
+|           |         |   evaluates to ``true``.                               |
+|           |         | | If all conditions evaluate to ``false``, then the    |
+|           |         |   entire expression is evaluated as ``false``.         |
++-----------+---------+--------------------------------------------------------+
+| ``!``     | ``NOT`` | | Takes a boolean value and returns the opposite       |
+|           |         |   boolean value.                                       |
+|           |         | | ``!true`` evaluates to ``false``.                    |
+|           |         | | ``!false`` evaluates to ``true``.                    |
++-----------+---------+--------------------------------------------------------+
 
 `To Top of Page`_
 
@@ -115,7 +114,7 @@ Grouping can be achieved using parentheses. Example:
       - else:
           - narrate fail
 
-.. note::
+.. important::
 
   There *must* be a space separating the parentheses from the other arguments
   for Denizen to recognize the grouping.
@@ -140,17 +139,22 @@ Tags
 General Definition
 ~~~~~~~~~~~~~~~~~~
 
-**Tags** are a way to retrieve modified or unmodified data without changing the
-object the data originates from.
+**Tags** are a way to retrieve modified or unmodified data without directly
+changing the object the data originates from.
 
-For example, ``<player.name>`` returns the attached player's username without
-changing it.
+For example, if a definition ``my_list`` contains the dList
+``li@one|two|three|four``, then ``<def[my_list].remove[last]>`` will return
+``li@one|two|three`` *without directly changing the value of the* ``my_list``
+*definition*. To change the definition's value, you would need to assign the
+returned dList to the definition.
 
-Note that some tags do not rely on a specific object and act as utilities.
+.. note::
 
-For example, |tag-rnd-int| returns a random number between two numbers, where
-``<FIRST_NUMBER>`` and ``<SECOND_NUMBER>`` are replaced with a lower and upper
-bound.
+  Some tags do not rely on a specific object and act as utilities.
+
+  For example, |tag-rnd-int| returns a random number between two numbers, where
+  ``<FIRST_NUMBER>`` and ``<SECOND_NUMBER>`` are replaced with a lower and upper
+  bound.
 
 .. |tag-rnd-int| replace:: ``<util.random.int[<FIRST_NUMBER>].to[<SECOND_NUMBER>]>``
 

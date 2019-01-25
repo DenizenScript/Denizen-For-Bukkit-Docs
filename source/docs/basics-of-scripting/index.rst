@@ -17,16 +17,3 @@ Contents
   the-ex-command
   your-first-task-script
   the-if-command
-
-|
-
-.. rst-class:: previous-next-table
-
-+-----------------------+--------------------+
-| | Previous section:   | | Next section:    |
-| | |prev-doc|          | | |next-doc|       |
-+-----------------------+--------------------+
-
-.. |prev-doc| replace:: :doc:`Section 1 (Getting Started)</docs/getting-started/index>`
-
-.. |next-doc| replace:: :doc:`Section 3 (More on NPCs)</docs/more-on-npcs/index>`

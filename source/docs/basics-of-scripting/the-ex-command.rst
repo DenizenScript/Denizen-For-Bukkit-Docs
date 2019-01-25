@@ -1,8 +1,8 @@
-=======================
-2.2 The ``/ex`` Command
-=======================
+=====================
+2.2 The "/ex" Command
+=====================
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 Before We Start
@@ -12,8 +12,8 @@ We used the ``/ex`` command once, in :doc:`Section 2.1
 </docs/basics-of-scripting/an-introduction-to-tags>`. It seems important,
 doesn't it? If you expected me to say that it's not important, *you're wrong*.
 
-1. What the ``/ex`` Command Is
-------------------------------
+1. What the "/ex" Command Is
+----------------------------
 
 The ``/ex`` command will be a critical part of your Denizen experience. It can
 run scripts for you, let you test a command or two, and possibly save you in a
@@ -57,16 +57,3 @@ For the rest of Section 2, we will largely use the ``/ex`` command as a minor
 utility. As you continue to advance through the varying obstacles of scripting,
 the ``/ex`` command may prove to be an invaluable assistant. Don't be afraid to
 stretch your imagination!
-
-|
-
-.. rst-class:: previous-next-table
-
-+-------------------+-----------------+
-| | Previous page:  | | Next page:    |
-| | |prev-doc|      | | |next-doc|    |
-+-------------------+-----------------+
-
-.. |prev-doc| replace:: :doc:`2.1 (An Introduction to Tags)</docs/basics-of-scripting/an-introduction-to-tags>`
-
-.. |next-doc| replace:: :doc:`2.3 (Your First Task Script)</docs/basics-of-scripting/your-first-task-script>`

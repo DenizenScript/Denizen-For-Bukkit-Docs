@@ -6,7 +6,7 @@ When scripting, it is important to follow the dScript format as closely as
 possible to avoid parsing errors, unintended behaviors, or other mishaps that
 may arise.
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
 1. Basic Script Structure
@@ -59,7 +59,7 @@ it. We have an example script below:
 
 .. rst-class:: figurecaption
 
-**Figure 1.3.2** An improperly written ``narrate`` command
+**Figure 1.3.2** An improperly written :guilabel:`narrate` command
 
 When you put this script in your ``./scripts/`` folder and attempt to run it,
 you will just see "``My``" in your chat, and probably a couple of weird things
@@ -67,9 +67,9 @@ in the debug printed to your console. But we wanted it to say out "``My whole
 sentence is great, isn't it YOUR_USERNAME!``" Why didn't it do what we wanted it
 to do?
 
-Each space is considered a "separator" between multiple arguments. The narrate
-command only needs one argument (it can take a second argument, but that
-argument has a special prefix so we can ignore it for now).
+Each space is considered a "separator" between multiple arguments. The
+:guilabel:`narrate` command only needs one argument (it can take a second
+argument, but that argument has a special prefix so we can ignore it for now).
 
 To Denizen, we've given it 7 different arguments and an open quote! It reads the
 first "argument" properly, but every "argument" afterwards is ignored and seen
@@ -141,8 +141,8 @@ using 4 spaces.
 Indentation clearly tells Denizen which are script containers (the lines that
 are not indented) and what belongs to each script container (the lines that are
 indented). Indentation will also serve to clearly differentiate sections of
-script associated with particular relevant commands (for example, ``if`` and
-``foreach``).
+script associated with particular relevant commands (for example, :guilabel:`if`
+and :guilabel:`foreach`).
 
 .. note::
 
@@ -153,17 +153,3 @@ script associated with particular relevant commands (for example, ``if`` and
 Always be careful when writing in dScript! If you're not sure if a particular
 style of formatting works, it is recommended to test the script on a private
 dev server.
-
-|
-
-.. rst-class:: previous-next-table
-
-+-------------------+--------------------+
-| | Previous page:  | | Next section:    |
-| | |prev-doc|      | | |next-doc|       |
-+-------------------+--------------------+
-
-.. |prev-doc| replace:: :doc:`1.2 (The Denizen Folder)</docs/getting-started/denizen-folder>`
-
-.. |next-doc| replace:: :doc:`Section 2 (The Basics of Scripting)</docs/basics-of-scripting/index>`
-

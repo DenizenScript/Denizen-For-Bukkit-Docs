@@ -12,26 +12,12 @@ table.table-info-display th {
     background-color: lightblue;
 }
 
-table.table-info-display tr:nth-child(even) {
-    background-color: lightgray;
-}
-
-table.previous-next-table {
-    width: 100%;
-    box-shadow: none;
-    border-style: hidden;
-}
-
-table.previous-next-table td {
-    border-style: hidden;
-}
-
-table.previous-next-table td:last-child {
-    text-align: right;
-}
-
 pre {
     background-color: #EEEEEE;
+}
+
+.wy-nav-content {
+    margin: auto;
 }
 
 .highlight-dscript .s { /* string: "double quoted" */

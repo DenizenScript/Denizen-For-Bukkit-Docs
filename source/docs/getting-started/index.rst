@@ -15,14 +15,3 @@ Contents
   introduction
   denizen-folder
   dscript-format
-
-|
-
-.. rst-class:: previous-next-table
-
-+------+-------------------+
-|      | | Next section:   |
-|      | | |next-doc|      |
-+------+-------------------+
-
-.. |next-doc| replace:: :doc:`Section 2 (The Basics of Scripting)</docs/basics-of-scripting/index>`

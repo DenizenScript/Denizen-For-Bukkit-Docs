@@ -3,15 +3,14 @@
 ==========================
 
 This section covers the video "`Setting Up A Local Test Server and Your First
-Task Script`_" by mcmonkey.
+Task Script`__" by mcmonkey.
 
-.. _Setting Up A Local Test Server and Your First Task Script:
-  https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20Your%20First%20Task%20Script
+.. __: https://one.denizenscript.com/denizen/vids/Setting%20Up%20A%20Local%20Test%20Server%20and%20Your%20First%20Task%20Script
 
-.. contents::
+.. contents:: Table of Contents
   :local:
 
-.. note::
+.. attention::
   
   The beginning part of the video contains outdated information. You should not
   be downloading or using Craftbukkit. Instead, use the latest Spigot builds.
@@ -120,16 +119,3 @@ Task scripts make it so that instead of copying and pasting multiple lines of
 script, we only ever have to copy and paste one line of script without losing
 any functionality. If there is a bug in the script, you will only ever need to
 edit the task script once and your issue is resolved. Nice, easy, and simple!
-
-|
-
-.. rst-class:: previous-next-table
-
-+-------------------+-----------------+
-| | Previous page:  | | Next page:    |
-| | |prev-doc|      | | |next-doc|    |
-+-------------------+-----------------+
-
-.. |prev-doc| replace:: :doc:`2.2 (The /ex Command)</docs/basics-of-scripting/the-ex-command>`
-
-.. |next-doc| replace:: :doc:`2.4 (The if Command)</docs/basics-of-scripting/the-if-command>`
