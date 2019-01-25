@@ -16,6 +16,10 @@ pre {
     background-color: #EEEEEE;
 }
 
+.wy-nav-content {
+    margin: auto;
+}
+
 .highlight-dscript .s { /* string: "double quoted" */
     color: #0066FF;
     font-weight: normal;
