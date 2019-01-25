@@ -2,11 +2,12 @@
 1.1 Introduction
 ================
 
-Denizen is a Spigot plugin [#footnote-platform]_ that gives you an entire scripting language
-(**dScript**) to use to customize your Minecraft server experience. You can add
-custom behavior to NPCs, create custom commands and items, react based on events
-in the world, create a full interactive experience, and more! It can be used for
-an RPG experience or simple housekeeping tasks. Your imagination is the limit!
+Denizen is a Spigot plugin [#footnote-platform]_ that gives you an entire
+scripting language (**dScript**) to use to customize your Minecraft server
+experience. You can add custom behavior to NPCs, create custom commands and
+items, react based on events in the world, create a full interactive experience,
+and more! It can be used for an RPG experience or simple housekeeping tasks.
+Your imagination is the limit!
 
 So, what exactly is a script? How should it look? What can we expect of it? What
 can they do? Will writing a script be harder than dealing with the pain of
@@ -43,7 +44,7 @@ view instructions on how to build your own Spigot JAR file on the official
 .. rubric:: Footnotes
 
 .. [#footnote-platform] "Denizen" throughout this website is used to refer to
-    Denizen 1.x for Bukkit/Spigot. There are other versions of Denizen, including
-    Denizen 2.x, which works as a desktop console program and as well on the
-    Sponge minecraft server platform. If you use Sponge, see the
-    `Denizen 2 Meta Docs <https://meta.denizenscript.com/>`_ for information on that.
+  Denizen 1.x for Bukkit/Spigot. There are other versions of Denizen, including
+  Denizen 2.x, which works as a desktop console program and as well on the
+  Sponge minecraft server platform. If you use Sponge, see the `Denizen 2 Meta
+  Docs <https://meta.denizenscript.com/>`_ for information on that.
