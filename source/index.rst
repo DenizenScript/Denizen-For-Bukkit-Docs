@@ -52,7 +52,7 @@ to it, see the `Docs GitHub Repo
 relating to this guide specifically go there.
 
 You can post issues relating to Denizen itself and view changes to Denizen on
-the `Denizen GitHub Repo<https://github.com/DenizenScript/Denizen-For-Bukkit>`_.
+the `Denizen GitHub Repo <https://github.com/DenizenScript/Denizen-For-Bukkit>`_.
 
 For a more detailed channel of help and support, consider joining our
 **Discord**! The invite link is https://discord.gg/Q6pZGSR.
