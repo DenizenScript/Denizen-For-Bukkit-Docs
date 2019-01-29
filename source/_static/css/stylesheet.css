@@ -12,12 +12,57 @@ table.table-info-display th {
     background-color: lightblue;
 }
 
+table.table-info-display td:nth-child(odd) {
+    background-color: white;
+}
+
+table.table-showcase-display,
+table.table-showcase-display-minimized {
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+    box-shadow: none;
+}
+
+table.table-showcase-display thead,
+table.table-showcase-display-minimized thead {
+    background-color: blue;
+    font-size: larger;
+    text-align: center !important;
+    color: white !important;
+}
+
+table.table-showcase-display td,
+table.table-showcase-display-minimized td {
+    vertical-align: text-top !important;
+}
+
+table.table-showcase-display tbody>tr:nth-child(odd)>td,
+table.table-showcase-display-minimized tbody>tr:nth-child(odd)>td {
+    background-color: lightblue !important;
+}
+
+table.table-showcase-display-minimized th:nth-child(2),
+table.table-showcase-display-minimized tbody>tr>td:nth-child(2) {
+    background-color: white !important;
+    border-top: solid 1px white !important;
+    border-bottom: solid 1px white !important;
+}
+
 pre {
     background-color: #EEEEEE;
 }
 
 .wy-nav-content {
     margin: auto;
+}
+
+.wy-table-responsive {
+    overflow: visible !important;
+}
+
+.wy-table-responsive table td {
+    white-space: normal !important;
 }
 
 .highlight-dscript .s { /* string: "double quoted" */

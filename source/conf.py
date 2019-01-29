@@ -197,6 +197,7 @@ html_scaled_image_link = False
 # Add custom CSS to the generated HTML files
 def setup(app):
     app.add_stylesheet('css/stylesheet.css')
+    app.add_javascript('js/custom.js')
 
 # Templating
 templates_path = ['_templates']
