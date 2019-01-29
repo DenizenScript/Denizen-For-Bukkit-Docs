@@ -5,6 +5,10 @@
 .. contents:: Table of Contents
     :local:
 
+.. warning::
+
+  This section is incomplete!
+
 Before We Start
 ---------------
 
@@ -24,26 +28,25 @@ spaces.
 Commands can have *required* arguments and *optional* arguments. If you fail to specify any required arguments, Denizen
 will throw an error. However, optional arguments can be left out.
 
-Let's look at the :guilabel:`narrate` command as a simple example. The basic syntax is outlined below. Additional
-information about the :guilabel:`narrate` command can be found `here`__.
+Let's look at the :guilabel:`give` command as a simple example. The basic syntax is outlined below. Additional
+information about the :guilabel:`give` command can be found `here`__.
 
-.. __: https://one.denizenscript.com/denizen/cmds/narrate
+.. __: https://one.denizenscript.com/denizen/cmds/give
 
 .. code-block:: dscript
 
-    - narrate [<text>] (targets:<player>|...) (format:<name>)
+    - give [money/xp/<item>|...] (quantity:<#>) (engrave) (unlimit_stack_size) (to:<inventory>) (slot:<slot>)
 
-As we can see, there is one required argument and two optional arguments for the :guilabel:`narrate` command. For more
+As we can see, there is one required argument and multiple optional arguments for the :guilabel:`give` command. For more
 information on how to read the command documentation, refer to `the command syntax language explanation`__.
 
 .. __: https://one.denizenscript.com/denizen/lngs/command%20syntax
 
-Optional Arguments
-------------------
+Command Arguments
+-----------------
 
-What would happen if we exclude the two optional arguments? Well, we've already been doing that in :doc:`Section 1.3
-</docs/getting-started/dscript-format>` and :doc:`Section 2.1 </docs/basics-of-scripting/an-introduction-to-tags>`. But
-we should look at a fresher example and fully examine the command.
+When we write a command, what happens when we exclude certain arguments? What will Denizen do if we don't tell it to
+do certain things? Not to worry, it won't freak out.
 
 Consider this very simple script:
 
@@ -61,4 +64,6 @@ Consider this very simple script:
 
 **Figure 2.2.1** A simple :guilabel:`narrate` command
 
-
+As you can see, there is only one argument given to the narrate command. That argument is ``"One argument"``. When the
+task script is run in-game using ``/ex run a_task_script``, the phrase ``One argument`` should appear in your chat. But
+what about the other two arguments? What if we included one or both of them?
