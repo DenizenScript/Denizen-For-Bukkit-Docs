@@ -100,6 +100,8 @@ Grouping can be achieved using parentheses. Example:
         - else:
             - narrate fail
 
+A grouping can be negated. For example, ``!( false || false )`` would be evaluated as ``true``.
+
 .. important::
 
     There *must* be a space separating the parentheses from the other arguments for Denizen to recognize the grouping.
