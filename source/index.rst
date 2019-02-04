@@ -1,19 +1,24 @@
-=========================
-Denizen: Beginner's Guide
-=========================
+=======================
+Denizen: Text Tutorials
+=======================
 
-Welcome to the Denizen Beginner's Guide! Here, you will learn about the various parts of Denizen, how to use them, and
-how to find success in the endless ways to customize your server!
+Welcome to the Denizen Text Tutorials! Here, you will learn about the various parts of Denizen, how to use them, and how
+to find success in the endless ways to customize your server!
 
 Not sure where to start? No problem! :doc:`Click here <docs/getting-started/index>` to jump to the first official page
-of this guide and start reading. The bottom of each page will direct you to the next and previous pages of this guide.
+of this extended text tutorial and start reading. The bottom of each page will direct you to the next and previous pages
+of this guide.
 
 .. note::
-    This guide largely assumes that you already have a Spigot server set up and
-    ready to use.
+    This guide largely assumes that you already have a Spigot server set up and ready to use.
 
-    :doc:`Section 1.2 (The Denizen Folder) <docs/getting-started/denizen-folder>` covers the Denizen folder and its
-    various files/directories.
+    :doc:`Section 1.2 <docs/getting-started/denizen-folder>` covers the Denizen folder and its various
+    files/directories.
+
+.. warning::
+    This text tutorial is currently incomplete and is constantly being updated. However, your browser may attempt to
+    keep and display a cached version of the various pages of this text tutorial. It's a good idea to occasionally
+    refresh your page to force your browser to download the latest version of the page you're looking at.
 
 Contents
 ========
