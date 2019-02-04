@@ -7,7 +7,7 @@ to find success in the endless ways to customize your server!
 
 Not sure where to start? No problem! :doc:`Click here <docs/getting-started/index>` to jump to the first official page
 of this extended text tutorial and start reading. The bottom of each page will direct you to the next and previous pages
-of this guide.
+of this tutorial.
 
 .. note::
     This guide largely assumes that you already have a Spigot server set up and ready to use.
@@ -39,12 +39,12 @@ Contents
 
     docs/glossary
 
-Updates to this Beginner's Guide
-================================
+Updates to This Text Tutorial
+=============================
 
-As Denizen continues to evolve, there may be slight changes that are not immediately reflected in this guide. However,
-this does not mean that this document will become obsolete. Whenever there is a syntactical or technical change in
-Denizen, this guide will update as appropriate, as soon as possible, in the context of a beginner's guide.
+As Denizen continues to evolve, there may be slight changes that are not immediately reflected in this series of
+tutorials. However, this does not mean that this document will become obsolete. Whenever there is a syntactical or
+technical change in Denizen, this guide will update as appropriate, as soon as possible.
 
 If you wish to see the full changelog for this guide, or contribute improvements to it, see the `Docs GitHub Repo`__.
 Any issue reports relating to this guide specifically go there.
@@ -59,14 +59,14 @@ For a more detailed channel of help and support, consider joining our **Discord*
 https://discord.gg/Q6pZGSR.
 
 The tutorial videos are still a good place to learn Denizen in an interactive manner. Videos 2-13 and 15-27 will be
-covered by this guide. If you want to learn by video and not by text-based guides, you can view the videos at:
+covered by this tutorial. If you want to learn by video and not by a long document, you can view the videos at:
 https://one.denizenscript.com/denizen/vids/
 
 While the videos are still relevant and should be considered good learning material, some of the scripts shown in the
 videos sometimes have slightly outdated syntax compared to the current standard. We will try to use some or all of the
 example scripts in the videos while keeping them as modern as possible.
 
-Of course, we won't limit ourselves to the videos. The purpose of this guide is to help you in the best way possible!
+Of course, we won't limit ourselves to the videos. The purpose of this tutorial is to help you in the best way possible!
 Additional information and sections may be added as we see fit.
 
 .. _index important-links:
