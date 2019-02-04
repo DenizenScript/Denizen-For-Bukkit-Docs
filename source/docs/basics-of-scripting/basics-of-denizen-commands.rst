@@ -18,8 +18,8 @@ kill a player. Put that zombie in its place with a lightning strike. Maybe even 
 This all can be accomplished using something that we've been referring to and using almost nonstop since :doc:`Section
 1.2 </docs/getting-started/denizen-folder>`. Commands!
 
-Command Syntax
---------------
+1. Command Syntax
+-----------------
 
 In Denizen, commands are incredibly straightforward. They consist of the **command name** and the **arguments**. As
 covered in :doc:`Section 1.3 </docs/getting-started/dscript-format>`, the arguments in a command are separated by
@@ -42,8 +42,8 @@ information on how to read the command documentation, refer to `the command synt
 
 .. __: https://one.denizenscript.com/denizen/lngs/command%20syntax
 
-Command Arguments
------------------
+2. Command Arguments
+--------------------
 
 When we write a command, what happens when we exclude certain arguments? What will Denizen do if we don't tell it to
 do certain things? Not to worry, it won't freak out.
@@ -55,15 +55,39 @@ Consider this very simple script:
     :linenos:
     :emphasize-lines: 4
 
-    a_task_script:
+    task_script:
         type: task
         script:
-        - narrate "One argument"
+        - give i@diamond
 
 .. rst-class:: figurecaption
 
-**Figure 2.2.1** A simple :guilabel:`narrate` command
+**Figure 2.2.1** A simple :guilabel:`give` command
 
-As you can see, there is only one argument given to the narrate command. That argument is ``"One argument"``. When the
-task script is run in-game using ``/ex run a_task_script``, the phrase ``One argument`` should appear in your chat. But
-what about the other two arguments? What if we included one or both of them?
+As you can see, there is only one argument given to the :guilabel:`give` command. In plain terms, this :guilabel:`give`
+command gives you one diamond item, provided that you are logged in to your server and are running this script using
+``/ex run task_script``.
+
+What if we started including the other options? For example, the ``quantity`` argument?
+
+Consider this edit of :ref:`Figure 2.2.1 <figure2_2_1>`:
+
+.. code-block:: dscript
+    :name: figure2_2_2
+    :linenos:
+    :emphasize-lines: 4
+
+    task_script:
+        type: task
+        script:
+        - give i@diamond quantity:10
+
+.. rst-class:: figurecaption
+
+**Figure 2.2.2** A simple :guilabel:`give` command with a ``quantity`` argument
+
+This give command will, in plain language, give us ten diamonds. When we didn't specify a quantity, we only got one
+diamond.
+
+When the optional arguments are left unspecified, Denizen will fill in the gaps for you. Specifying the optional
+arguments will allow you to further customize your experience.
