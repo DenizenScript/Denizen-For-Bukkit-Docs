@@ -68,11 +68,11 @@ Consider the following example:
 When you load this script to your server and run it in-game using ``/ex run myscript``, you will see those two lines
 printed to your chat. The image below shows the expected result:
 
-.. image:: /_static/images/f2.3.3_result-of-f2.3.2.png
+.. image:: /_static/images/f2.4.3_result-of-f2.4.2.png
     :name: figure2_4_3
     :width: 90%
     :align: center
-    :alt: result of figure 2.3.2
+    :alt: result of figure 2.4.2
 
 .. rst-class:: figurecaption
 

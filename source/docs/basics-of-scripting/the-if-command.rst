@@ -80,11 +80,11 @@ block, but stay with us.
 
 When you break a sand block, you should expect to see something like this:
 
-.. image:: /_static/images/f2.4.2_result-of-f2.4.1.png
+.. image:: /_static/images/f2.5.2_result-of-f2.5.1.png
     :name: figure2_5_2
     :width: 90%
     :align: center
-    :alt: result of figure 2.4.1
+    :alt: result of figure 2.5.1
 
 .. rst-class:: figurecaption
 

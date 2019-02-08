@@ -16,7 +16,7 @@ developmental builds can be found `here
 Contents
 ========
 
-.. toctree:
+.. toctree::
   :maxdepth: 1
   :titlesonly:
   
