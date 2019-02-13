@@ -103,3 +103,12 @@ unnecessary effort.
 Task scripts make it so that instead of copying and pasting multiple lines of script, we only ever have to copy and
 paste one line of script without losing any functionality. If there is a bug in the script, you will only ever need to
 edit the task script once and your issue is resolved. Nice, easy, and simple!
+
+Afterword
+---------
+
+Task scripts will be one of the most fundamental parts of your scripting experience. Apart from just being a useful
+script container that reduces script redundancy, they can also serve as ways to improve readability and build an arsenal
+of tools that will help you in your scripting adventures.
+
+Of course, you won't be able to get by just task scripts alone. There's still so much more to learn!

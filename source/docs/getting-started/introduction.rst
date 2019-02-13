@@ -2,7 +2,7 @@
 1.1 Introduction
 ================
 
-Denizen is a Spigot plugin [#footnote-platform]_ that gives you an entire scripting language (**dScript**) to use to
+Denizen [#footnote-platform]_ is a Spigot plugin that gives you an entire scripting language (**dScript**) to use to
 customize your Minecraft server experience. You can add custom behavior to NPCs, create custom commands and items, react
 based on events in the world, create a full interactive experience, and more! It can be used for an RPG experience or
 simple housekeeping tasks. Your imagination is the limit!

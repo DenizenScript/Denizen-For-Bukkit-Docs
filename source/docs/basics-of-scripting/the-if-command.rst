@@ -325,11 +325,11 @@ When all's said and done, we still haven't really covered something important. I
 
 But of course it can!
 
-.. contents::
+.. contents:: Contents
     :local:
 
-Comparing Two Values to Each Other
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5A. Comparing Two Values to Each Other
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In general, there are two ways to write a condition for the :guilabel:`if` command. It can either be one value that
 resolves to ``true`` or ``false``, or a value being compared to another.
@@ -404,8 +404,10 @@ the :doc:`Glossary </docs/glossary>`.
 
 |
 
-Combining Two or More Expressions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _basics-of-scripting the-if-command 5B:
+
+5B. Combining Two or More Expressions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cool beans. Now we have an impressive arsenal of comparisons at our disposal. But... what if we want to do *multiple
 comparisons at once*? Well, you're in luck. That can be accomplished using **logical operators**!
@@ -470,8 +472,8 @@ Below is a quick table displaying the different types of logical operators. Addi
 
 |
 
-Grouping Expressions Together
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+5C. Grouping Expressions Together
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You are probably tired of me saying "What if", but *what if we wanted to use* ``&&`` *and* ``||`` *at the same time*?
 
@@ -522,8 +524,8 @@ The following is an approximate depiction of how grouping works:
 
 1. Given the expression ``true && ( true || false )``, Denizen sees that there is a group ``( true || false )``. It will
    evaluate the expression in that group first.
-#. The expression ``true || false`` evaluates to ``true`` (see `Combining Two or More Expressions`_ for more
-   information).
+#. The expression ``true || false`` evaluates to ``true`` (see :ref:`Combining Two or More Expressions
+   <basics-of-scripting the-if-command 5B>` for more information).
 #. Denizen replaces the group ``( true || false )`` with the result of its encapsulated expression. Therefore, ``( true
    || false )`` is replaced with ``true``.
 #. Denizen looks at the whole expression again. ``true && ( true || false )`` is equivalent to ``true && true``. This

@@ -11,8 +11,8 @@ Before We Start
 We used the ``/ex`` command once, in :doc:`Section 2.1 </docs/basics-of-scripting/an-introduction-to-tags>`. It seems
 important, doesn't it? If you expected me to say that it's not important, *you're wrong*.
 
-1. What the "/ex" Command Is
-----------------------------
+What the "/ex" Command Is
+-------------------------
 
 The ``/ex`` command will be a critical part of your Denizen experience. It can run scripts for you, let you test a
 command or two, and possibly save you in a pinch (though we should probably avoid getting ourselves into sticky
@@ -43,8 +43,8 @@ within the limitation of Denizen. As we mentioned in :doc:`Section 1.1: Introduc
 </docs/getting-started/introduction>`, that limit can be higher than you can see. Hopefully this demonstrates the power
 that the ``/ex`` command wields.
 
-2. Afterword
-------------
+Afterword
+---------
 
 For the rest of Section 2, we will largely use the ``/ex`` command as a minor utility. As you continue to advance
 through the varying obstacles of scripting, the ``/ex`` command may prove to be an invaluable assistant. Don't be afraid

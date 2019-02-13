@@ -57,6 +57,29 @@ pre {
     margin: auto;
 }
 
+.wy-nav-content>.rst-content h1,
+.wy-nav-content>.rst-content h2,
+.wy-nav-content>.rst-content h3,
+.wy-nav-content>.rst-content h4,
+.wy-nav-content>.rst-content h5,
+.wy-nav-content>.rst-content h6 {
+    text-decoration: underline;
+}
+
+.wy-nav-content>.rst-content a.internal, .wy-nav-content>.rst-content a.internal:visited,
+.wy-nav-content>.rst-content a.external, .wy-nav-content>.rst-content a.external:visited,
+.wy-nav-content>.rst-content a.headerlink, .wy-nav-content>.rst-content a.headerlink:visited,
+.wy-breadcrumbs a, .wy-breadcrumbs a:visited {
+    color: #2980b9;
+}
+
+.wy-nav-content>.rst-content a.internal:hover,
+.wy-nav-content>.rst-content a.external:hover,
+.wy-nav-content>.rst-content a.headerlink:hover,
+.wy-breadcrumbs a:hover {
+    color: #43b4ff;
+}
+
 .wy-table-responsive {
     overflow: visible !important;
 }

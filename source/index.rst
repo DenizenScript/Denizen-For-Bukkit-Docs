@@ -10,12 +10,14 @@ of this extended text tutorial and start reading. The bottom of each page will d
 of this tutorial.
 
 .. note::
+
     This guide largely assumes that you already have a Spigot server set up and ready to use.
 
     :doc:`Section 1.2 <docs/getting-started/denizen-folder>` covers the Denizen folder and its various
     files/directories.
 
 .. warning::
+
     This text tutorial is currently incomplete and is constantly being updated. However, your browser may attempt to
     keep and display a cached version of the various pages of this text tutorial. It's a good idea to occasionally
     refresh your page to force your browser to download the latest version of the page you're looking at.
