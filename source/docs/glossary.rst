@@ -175,6 +175,10 @@ each does.
 |          |         |             | | The value is treated as a dList.                                                |
 +----------+---------+-------------+-----------------------------------------------------------------------------------+
 
+.. note::
+
+    These same actions can be applied to the :guilabel:`yaml` command.
+
 `To Top of Page`_
 
 Indexable Actions

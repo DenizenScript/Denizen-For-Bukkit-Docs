@@ -383,21 +383,20 @@ the :doc:`Glossary </docs/glossary>`.
 | Operator    | Alternative | Description                                                                              |
 |             | Version     |                                                                                          |
 +=============+=============+==========================================================================================+
-| ``==``      | ``EQUALS``  | Checks to see if two values are **completely equal** to each other.                      |
+| ``==``      | ``EQUALS``  | | Checks to see if two values are **completely equal** to each other.                    |
 +-------------+-------------+------------------------------------------------------------------------------------------+
-| ``!=``      | ``!EQUALS`` | Checks to see if two values are **not equal** to each other.                             |
+| ``!=``      | ``!EQUALS`` | | Checks to see if two values are **not equal** to each other.                           |
 +-------------+-------------+------------------------------------------------------------------------------------------+
-| ``<``       | ``LESS``    | Checks to see if one value is **less than** the other.                                   |
+| ``<``       | ``LESS``    | | Checks to see if one value is **less than** the other.                                 |
 +-------------+-------------+------------------------------------------------------------------------------------------+
-| ``<=``      | ``OR_LESS`` | Checks to see if one value is **less than or equal to** the other.                       |
+| ``<=``      | ``OR_LESS`` | | Checks to see if one value is **less than or equal to** the other.                     |
 +-------------+-------------+------------------------------------------------------------------------------------------+
-| ``>``       | ``MORE``    | Checks to see if one value is **greater than** the other.                                |
+| ``>``       | ``MORE``    | | Checks to see if one value is **greater than** the other.                              |
 +-------------+-------------+------------------------------------------------------------------------------------------+
-| ``>=``      | ``OR_MORE`` | Checks to see if one value is **greater than or equal to** the other.                    |
+| ``>=``      | ``OR_MORE`` | | Checks to see if one value is **greater than or equal to** the other.                  |
 +-------------+-------------+------------------------------------------------------------------------------------------+
-| ``MATCHES`` | none        | Checks to see if the given value is of a particular type.                                |
-|             |             |                                                                                          |
-|             |             | Available types can be found `here`__.                                                   |
+| ``MATCHES`` | none        | | Checks to see if the given value is of a particular type.                              |
+|             |             | | Available types can be found `here`__.                                                 |
 +-------------+-------------+------------------------------------------------------------------------------------------+
 
 .. __: https://one.denizenscript.com/denizen/lngs/operator

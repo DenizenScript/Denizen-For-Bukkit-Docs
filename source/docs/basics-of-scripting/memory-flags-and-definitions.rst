@@ -107,14 +107,13 @@ result to the definition ``random``. That's pretty neat, isn't it?
 If you don't believe me, you can run as many :guilabel:`narrate` or :guilabel:`announce` commands as you want. The
 ``<def[random]>`` tag will only produce a new random number every time you break a sand block.
 
-... Hold on. Every time you break a sand block, the definition's value seems to change!? Why is that?
+Well, what if we wanted to access that definition after the script has finished running? Well... we can't.
 
-Every time you break a block, the script block is run. When the script block is finished running, *the definition is
+Every time you break a block, the script block is run. When the script block has finished running, *the definition is
 deleted*. For programmers, this is why definitions are analogous to temporary local variables.
 
-What if we wanted to keep the random number? For example, have a number that counts how many times you've tried to
-break a sand block? Definitions definitely can't help us here. We need a more permanent sort of way to store values. We
-need *flags*.
+Let's ask a better question. What if we wanted to have a number that counts how many times you've tried to break a sand
+block? Definitions definitely can't help us here. We need a more permanent sort of way to store values. We need *flags*.
 
 2. Flags
 --------
@@ -166,7 +165,7 @@ To clarify what I mean, let's demonstrate the difference between flags versus de
         events:
             on player breaks sand:
             - define string "I am a definition!"
-            - flag server "flag_string:I am a flag!"
+            - flag server "string:I am a flag!"
             - determine cancelled
 
 .. rst-class:: figurecaption
@@ -177,6 +176,11 @@ If you were to break a block of sand, three things should happen. First, the :gu
 definition with the name ``string`` and store the sentence ``I am a definition!`` to the definition ``string``. Then,
 the :guilabel:`flag` command will create a flag with the name ``flag_string`` and store the sentence ``I am a flag!`` to
 the flag ``flag_string``. Finally, the :guilabel:`determine` command will run.
+
+.. note::
+
+    Notice how in the :guilabel:`flag` command, the quotes go around the entire third argument. The quotes do not go
+    around just the sentence. Reread :ref:`Section 1.3 </docs/getting-started/dscript-format>` for more information.
 
 If you need a refresher on what this :guilabel:`determine` command is used for, refer to :ref:`Figure 2.5.1
 <figure2_5_1>` of :doc:`Section 2.5 </docs/basics-of-scripting/the-if-command>`.
@@ -189,8 +193,8 @@ After you have broken a sand block, attempt to run the following commands in-gam
 
 .. code::
     
-    /ex narrate "definition: <def[random]>"
-    /ex narrate "flag: <server.flag[random]>"
+    /ex narrate <def[string]>
+    /ex narrate <server.flag[string]>
 
 If you run those two commands in that exact order, you can expect to see something similar to what's depicted below.
 
@@ -234,6 +238,6 @@ Of course, you can do a bit more with flags than you can with definitions.
 
 
 Afterword
-~~~~~~~~~
+---------
 
 
