@@ -180,7 +180,7 @@ the flag ``flag_string``. Finally, the :guilabel:`determine` command will run.
 .. note::
 
     Notice how in the :guilabel:`flag` command, the quotes go around the entire third argument. The quotes do not go
-    around just the sentence. Reread :ref:`Section 1.3 </docs/getting-started/dscript-format>` for more information.
+    around just the sentence. Reread :doc:`Section 1.3 </docs/getting-started/dscript-format>` for more information.
 
 If you need a refresher on what this :guilabel:`determine` command is used for, refer to :ref:`Figure 2.5.1
 <figure2_5_1>` of :doc:`Section 2.5 </docs/basics-of-scripting/the-if-command>`.
