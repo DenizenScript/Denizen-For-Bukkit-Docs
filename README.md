@@ -19,6 +19,10 @@ After Sphinx is installed, you can build by running `sphinx-build -ab html sourc
 
 This will create a fully built static web pages folder in `build/`.
 
+## Contributing
+
+For a guide on contributing, see the [contribution guidelines](CONTRIB_GUIDELINES.md).
+
 ## Other Tools
 
 You may additionally choose to install "doc8" (a simple rST style checker) for Python.
