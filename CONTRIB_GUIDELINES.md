@@ -43,7 +43,7 @@ to reflect any new changes new contributors should know.
     commits.
 
 5. **Obey conventional dScript language syntax.** Do not use shorthands, keep variable names clean and concise, use
-    quotes sparingly, and use commands and tags that will quickly accomplish the goal. Avoid overengineering
+    quotes sparingly, and use commands and tags that will quickly accomplish the goal. Avoid overengineering,
     overcomplication, or over-optimization of script. Remember that this is a *public text tutorial*. We should be
     encouraging proper script writing. The user can decide for themselves if they want to do black magic with their
     scripts.
