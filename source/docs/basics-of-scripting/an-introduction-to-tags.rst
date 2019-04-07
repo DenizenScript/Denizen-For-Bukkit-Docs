@@ -1,6 +1,6 @@
-===========================
-2.1 An Introduction to Tags
-===========================
+============================
+2.1. An Introduction to Tags
+============================
 
 This section covers the video "`Your First Tags`__" by mcmonkey4eva.
 

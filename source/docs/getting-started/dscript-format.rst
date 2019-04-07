@@ -1,6 +1,6 @@
-==================
-1.3 dScript Format
-==================
+===================
+1.3. dScript Format
+===================
 
 When scripting, it is important to follow the dScript format as closely as possible to avoid parsing errors, unintended
 behaviors, or other mishaps that may arise.

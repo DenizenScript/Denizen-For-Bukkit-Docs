@@ -1,0 +1,8 @@
+special_block_drops:
+  type: world
+  events:
+    on player breaks sand:
+    - flag player sands_broken:++
+
+    - if <player.flag[sands_broken]> > 10 && <util.random.decimal> < 0.25:
+      - give 

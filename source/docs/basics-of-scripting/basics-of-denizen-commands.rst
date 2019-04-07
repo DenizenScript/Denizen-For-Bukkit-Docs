@@ -1,6 +1,6 @@
-==================================
-2.2 The Basics of Denizen Commands
-==================================
+===================================
+2.2. The Basics of Denizen Commands
+===================================
 
 .. contents:: Table of Contents
     :local:

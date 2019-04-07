@@ -1,6 +1,6 @@
-==================
-2.5 The If Command
-==================
+===================
+2.5. The If Command
+===================
 
 This section covers the video "`Alternative\/Dynamic Actions\: The If Command`__" by mcmonkey.
 
@@ -10,7 +10,7 @@ This section covers the video "`Alternative\/Dynamic Actions\: The If Command`__
     :local:
 
 .. admonition:: Syntax Updated
-  
+
     The video uses the old, deprecated braced syntax. The modern syntax uses colons and proper indentation. We will
     still use the example found in the video, but corrected to reflect the new modern syntax.
 
@@ -226,7 +226,7 @@ The following figures demonstrate this well.
 .. code-block:: dscript
     :name: figure2_5_5
     :linenos:
-  
+
     no_else_or_else_ifs:
         type: task
         script:
@@ -240,7 +240,7 @@ The following figures demonstrate this well.
 .. code-block:: dscript
     :name: figure2_5_6
     :linenos:
-    
+
     no_else_ifs:
         type: task
         script:
@@ -256,7 +256,7 @@ The following figures demonstrate this well.
 .. code-block:: dscript
     :name: figure2_5_7
     :linenos:
-    
+
     no_else:
         type: task
         script:
@@ -272,7 +272,7 @@ The following figures demonstrate this well.
 .. code-block:: dscript
     :name: figure2_5_8
     :linenos:
-    
+
     many_else_ifs_no_else:
         type: task
         script:
@@ -290,11 +290,11 @@ The following figures demonstrate this well.
 .. rst-class:: figurecaption
 
 **Figure 2.5.8** An :guilabel:`if`/:guilabel:`else if` chain with multiple :guilabel:`else if` commands
-  
+
 .. code-block:: dscript
     :name: figure2_5_9
     :linenos:
-    
+
     many_else_ifs:
         type: task
         script:
@@ -351,7 +351,7 @@ Consider this modification on :ref:`Figure 2.5.1 <figure2_5_1>`:
                 - narrate fail
             - narrate "a b c d e f g"
             - determine cancelled
-  
+
 .. rst-class:: figurecaption
 
 **Figure 2.5.10** An :guilabel:`if` command comparing a tag to a number
@@ -428,7 +428,7 @@ Consider this modification on :ref:`Figure 2.5.10 <figure2_5_10>`:
                 - narrate fail
             - narrate "a b c d e f g"
             - determine cancelled
-  
+
 .. rst-class:: figurecaption
 
 **Figure 2.5.11** An :guilabel:`if` command using a logical operator
@@ -481,7 +481,7 @@ We absolutely can! But with what we know right now, that isn't possible. Conside
 .. code-block:: dscript
     :name: figure2_5_12
     :linenos:
-    
+
     - if true && true || false:
         - narrate "Well what am I supposed to do now?"
 

@@ -1,6 +1,6 @@
-===========================
-2.7 Your First World Script
-===========================
+============================
+2.7. Your First World Script
+============================
 
 This section covers "`Your First World Script`__" by mcmonkey.
 

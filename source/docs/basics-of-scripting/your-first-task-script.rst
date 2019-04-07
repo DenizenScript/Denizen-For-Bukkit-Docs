@@ -1,6 +1,6 @@
-==========================
-2.4 Your First Task Script
-==========================
+===========================
+2.4. Your First Task Script
+===========================
 
 This section covers the video "`Setting Up A Local Test Server and Your First Task Script`__" by mcmonkey.
 
@@ -10,7 +10,7 @@ This section covers the video "`Setting Up A Local Test Server and Your First Ta
   :local:
 
 .. attention::
-  
+
     The beginning part of the video contains outdated information. You should not be downloading or using Craftbukkit.
     Instead, use the latest Spigot builds. You can find out more about obtaining a Spigot JAR at
     https://www.spigotmc.org/wiki/buildtools/.

@@ -1,6 +1,6 @@
-=================================
-2.6 Memory: Flags and Definitions
-=================================
+==================================
+2.6. Memory: Flags and Definitions
+==================================
 
 This section covers the video "`Memory (Flags and Definitions)`__" by mcmonkey.
 
@@ -15,8 +15,9 @@ This section covers the video "`Memory (Flags and Definitions)`__" by mcmonkey.
 
 .. admonition:: Syntax Updated
 
-    The video uses the term "``global``". All references to "``global``" flags and tags are now deprecated. You should
-    use "``server``" instead. We will still use the example found in the video, but corrected to reflect this change.
+    The video uses the term "``global``". While ``global`` and ``server`` mean the same thing, you should use
+    "``server``" instead. ``global`` is deprecated since it is simply an alternative to using ``server``. We will still
+    use the example found in the video, but corrected to use ``server`` instead of ``global``.
 
 Before We Start
 ---------------
@@ -63,7 +64,7 @@ The answer is definitions. **Definitions** will take a value and successfully re
 called. To store a value, you need to use the :guilabel:`define` command. The syntax is:
 
 .. code-block:: dscript
-  
+
     - define [<id>] [<value>]
 
 To get the value of a definition, you would use the tag:
@@ -192,7 +193,7 @@ commands.
 After you have broken a sand block, attempt to run the following commands in-game:
 
 .. code::
-    
+
     /ex narrate <def[string]>
     /ex narrate <server.flag[string]>
 

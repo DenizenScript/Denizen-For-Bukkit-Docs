@@ -1,6 +1,6 @@
-================
-1.1 Introduction
-================
+=================
+1.1. Introduction
+=================
 
 Denizen [#footnote-platform]_ is a Spigot plugin that gives you an entire scripting language (**dScript**) to use to
 customize your Minecraft server experience. You can add custom behavior to NPCs, create custom commands and items, react

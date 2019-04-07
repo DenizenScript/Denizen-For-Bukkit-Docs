@@ -20,6 +20,7 @@ Contents:
 5. [Tables](#5-tables)
 6. [Figures](#6-figures)
 7. [Links](#7-links)
+8. [Special Notes](#8-special-notes)
 
 **NOTE:** If more concerns are brought up during the development of the text documentation, this guideline will update
 to reflect any new changes new contributors should know.
@@ -186,6 +187,16 @@ Use a non-figure code block directive to display command syntax. For example:
 
 ```
 
+### Boldfacing and Italicizing
+
+If you choose to boldface text, it is expected that the bolded text is a *term that you are going to define.*
+
+If you choose to italicize text, it is expected that the italicized text is *important and/or critical information that
+the reader must absolutely be aware of.*
+
+Do not overuse text formatting. This will make bolded/italicized text appear less important to the reader, which is an
+unacceptable outcome.
+
 [To Top](#contribution-guidelines)
 
 ## 4) Headers and Filenames
@@ -195,9 +206,9 @@ Use a non-figure code block directive to display command syntax. For example:
 The highest level header should be the section number and name. For most pages, it will most likely look like this:
 
 ```
-========================
-10.4 The Art of Slapping
-========================
+=========================
+10.4. The Art of Slapping
+=========================
 ```
 
 Every header to denote a subsection of the page should use the second level header. If the subsection covers an
@@ -248,6 +259,15 @@ content content content
 
 content content content
 ```
+
+### Section and Subsection Naming
+
+Each section/subsection should have a clear name that indicates what the section/subsection is about. If the name is
+not specific enough, you may be asked to justify your section naming. For example, a subsection name of "**The Basic
+Rundown**" is generally not specific enough alone, but may make sense given the name of the section that it's in.
+
+On the other hand, "**Making Something Work**" is totally unacceptable. "Something" is too nonspecific, and the section
+name itself has no general unique connection to most imaginable umbrellas of topics.
 
 ### Filenames
 
@@ -333,16 +353,16 @@ Generally speaking, the following is the ideal way to formulate a `code-block` f
 
 .. rst-class:: figurecaption
 
-**Figure <FIGURE_NUM>** <description>
+**Figure <FIGURE_NUM>** <DESCRIPTION>
 ```
 
 The `<CODE_LANG>` should almost always be `dscript`, unless you really need to use another language's syntax
 highlighting for some purpose.
 
 The `<FIGURE_ID>` should **ALWAYS** be formatted as `figure#_#_#`. The first `#` represents the major section, the
-second `#` represents the subsection, and the last `#` represents the ID of the figure. Technically speaking, each
-figure should be named in increasing numerical order. For example, three figures in Section 10.4 will have their names
-set to `figure10_4_1`, `figure10_4_2`, and `figure10_4_3`, in order.
+second `#` represents the section, and the last `#` represents the ID of the figure. Technically speaking, each figure
+should be named in increasing numerical order. For example, three figures in Section 10.4 should have their names set to
+`figure10_4_1`, `figure10_4_2`, and `figure10_4_3`, in order.
 
 If the code block should start at line 1, you can simply use the `:linenos:` option. If the code block must start at a
 line that is not the first line, you can instead just use `:linenos-start: <#>`, where `<#>` is the line number. For
@@ -359,7 +379,7 @@ a specific line or lines from the code block.
 The `<FIGURE_NUM>` should be formatted as `#.#.#`. The three numbers used should match the three numbers used for the
 `<FIGURE_ID>` part. For example, a figure named `figure10_4_3` will have a figure number of `10.4.3`.
 
-The `<description>` should be a brief description of the figure.
+The `<DESCRIPTION>` should be a brief description of the figure.
 
 The following is a full example of what a figure may look like:
 
@@ -404,7 +424,7 @@ Generally speaking, the following is the ideal way to formulate an `image` figur
 
 .. rst-class:: figurecaption
 
-**Figure <FIGURE_NUM>** <description>
+**Figure <FIGURE_NUM>** <DESCRIPTION>
 ```
 
 The `<ABS_FILEPATH>` should be the absolute filepath leading to the image. Typically, since all images should be stored
@@ -414,9 +434,9 @@ suggestion, consider using `f#.#.#_DESCRIPTION` as the file name, where `#.#.#` 
 is a short description of the image's purpose.
 
 The `<FIGURE_ID>` should **ALWAYS** be formatted as `figure#_#_#`. The first `#` represents the major section, the
-second `#` represents the subsection, and the last `#` represents the ID of the figure. Technically speaking, each
-figure should be named in increasing numerical order. For example, three figures in Section 10.4 will have their names
-set to `figure10_4_1`, `figure10_4_2`, and `figure10_4_3`, in order.
+second `#` represents the section, and the last `#` represents the ID of the figure. Technically speaking, each figure
+should be named in increasing numerical order. For example, three figures in Section 10.4 should have their names set to
+`figure10_4_1`, `figure10_4_2`, and `figure10_4_3`, in order.
 
 The `<WIDTH>` should be adjusted so that on a sufficiently large screen, the image does not stretch to take up the
 page. Most images should be able to use `90%` width with reasonable results.
@@ -430,7 +450,7 @@ load for any particular user. The phrase does not require proper capitalization 
 The `<FIGURE_NUM>` should be formatted as `#.#.#`. The three numbers used should match the three numbers used for the
 `<FIGURE_ID>` part. For example, a figure named `figure10_4_3` will have a figure number of `10.4.3`.
 
-The `<description>` should be a brief description of the figure.
+The `<DESCRIPTION>` should be a brief description of the figure.
 
 The following is a full example of what a figure may look like:
 
@@ -508,5 +528,105 @@ overuse of named hyperlinks can create unnecessary complications.
 
 Anonymous hyperlinks are simply unnamed hyperlink references. They are most useful when a paragraph has exactly one
 link that you will not need to reference again for the rest of the document.
+
+[To Top](#contribution-guidelines)
+
+## 8) Special Notes
+
+### The "Text Tutorials" Section Set
+
+This section set must have everything related to teaching/conveying anything related to scripting, including information
+that may contribute to a better scripting environment (for example, Section 1, which describes the benefits of Denizen,
+the Denizen directory space, and some dScript formatting information).
+
+If there is any information that is totally unrelated to scripting, it may not be needed to be included in the text
+tutorial. However, if you feel that such information may somehow be useful to a reader, make a case as to why you wish
+for that information to be included. While it is not guaranteed that your proposal will be added to the "Text Tutorials"
+section set, it may be included in another appropriate section set.
+
+### The "References" Section Set
+
+As the name implies, the "References" section set is a collection of pages that are meant to serve as a reference tool
+for the user. This may include a glossary, miniature dictionary, index of contents, or "wiki" pages. If any one page
+becomes too long, consider splitting the page into multiple subpages contained within a subdirectory. However, do not
+make too many nested subdirectories. That may muddle the file organization.
+
+However, this section should have nothing substantial insofar as completely new scripting information. All scripting
+information that should be taught must go under the "Text Tutorials" section set.
+
+As a result of not containing any substantially "new" information, there will be no dedicated/marked figures in the
+"References" section set. As such, there will be no need to use the `:name:` option in the `code-block` or `image`
+directives in the "References" section set. All other styling rules apply.
+
+### The "Do It Yourself" Section Set
+
+The "Do It Yourself" section set should be nothing but example projects that a Denizen user may wish to undertake to
+improve and refine their scripting skills. These sections must read like a building manual, with a clearly described
+goal. Including information as to what the user should know before engaging with the project will avoid confusion or
+other frustrations that an underexperienced user may feel when casually browsing through this section set.
+
+#### Section Naming
+
+Due to the special nature of how this section will be organized, each project must be numbered. For example,
+
+```
+=========================================
+1. My Really Cool Project That You Can Do
+=========================================
+```
+
+The numbering does not have to directly correspond to an arbitrary "rating of difficulty". It is merely to provide an
+easier way to create figures that you can easily link back to.
+
+#### Figure IDs
+
+Due to the special nature of hwo this section will be organized, each figure must adopt a different internal naming
+standard. When using the `:name:` option for any `code-block` or `image` directive, use this template for figure
+naming instead:
+
+```
+DIY_<SEC_#>_<FIG_#>
+```
+
+`<SEC_#>` should be the section number associated with the project.
+
+`<FIG_#>` should be the ID of the figure. This should start at `1` for the first figure and increase for each subsequent
+figure.
+
+For example, `DIY_1_2` may be used to represent the second figure in the first project of the "Do It Yourself" section
+set.
+
+#### Figure Caption
+
+When writing a figure caption below a `code-block` or `image` figure, instead adopt this template:
+
+```
+Figure <SEC_#>_<FIG_#>: <DESCRIPTION>
+```
+
+`<SEC_#>` should be the section number associated with the project.
+
+`<FIG_#>` should be the ID of the figure. This should start at `1` for the first figure and increase for each subsequent
+figure.
+
+`<DESCRIPTION>` should be a short description of the figure.
+
+For example, an appropriate caption may be `Figure 1.4: Hopping onto the Easter Bunny`, where `1.4` represents the
+fourth figure in the first section of the "Do It Yourself" section set.
+
+### Contributing a New Section Set
+
+When contributing a new section set, be sure to *justify and fully explain your reasoning*. Why is this new section set
+necessary? What benefit does it bring to the Denizen Text Docs? How can the readers use the information found in your
+section set? What special conventions must be applied to the new section set?
+
+Please remember that whether or not you are contributing a new section set and have fully polished every nuance, suspic
+(@MusicScore) ultimately has the final say. While you shouldn't be afraid to defend your choices, you should be aware
+that deviating too far from the guidelines outlined here will significantly impact your section set as a whole.
+
+In general, consistency between the varying section sets is required. It is only due to special circumstances that
+certain guidelines have to be tweaked to best fit the context of the section sets. If you can, avoid creating dramatic
+or otherwise outlandish special circumstances, and try your best to fit your section set's guidelines within the
+guidelines presented here as much as possible.
 
 [To Top](#contribution-guidelines)
