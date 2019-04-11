@@ -41,13 +41,13 @@ All comparison operator information can also be found `here`__. Below is a quick
 +-------------+-------------+------------------------------------------------------------------------------------------+
 
 .. note::
-  
+
     The ``==``, ``!=``, ``<``, ``<=``, ``>``, and ``>=`` operators can compare any two numbers.
 
     The ``==`` and ``!=`` operators can compare any two numbers and text.
 
     The ``MATCHES`` operator can only take a specific compared value, which specifies a type. The list of types can be
-    found `here`__. 
+    found `here`__.
 
 .. __: https://one.denizenscript.com/denizen/lngs/operator
 
@@ -58,7 +58,7 @@ Logical Operators
 
 Logical operators **takes the result of one or more logical expressions** and evaluates the combined expression to a
 boolean value.
-  
+
 A single combination of expressions can only use one type of logical operator. Using a mix of both logical operators
 requires grouping.
 
@@ -117,17 +117,37 @@ General Definition
 **Flags** are persistent data that survives server restarts, provided the server is properly shut down. They can be
 assigned to a player, NPC, entity, or the server.
 
+Flags follow the YAML key structure, i.e. flags may have parent keys and child keys. For example, a flag with the name
+``my_flag.sub_flag`` is a flag whose parent key is ``my_flag``, and child key is ``sub_flag``. A flag with the name
+``my_flag.2nd_sub_flag`` is a flag that shares the same parent key ``my_flag``, but has a child key ``2nd_sub_flag``.
+You may append as many child keys as you want.
+
+The structure of ``my_flag.sub_flag``, ``my_flag.sub_flag.another_child``, ``my_flag.sub_flag.more_children``, and
+``my_flag.2nd_sub_flag`` may be visually seen like this:
+
+.. code::
+
+    my_flag
+    |--- sub_flag
+    |    |--- another_child (can have value)
+    |    |--- more_children (can have value)
+    |
+    |--- 2nd_sub_flag (can have value)
+
+.. note::
+
+    If any given key acts as the parent key to a child key, then that key cannot have a value assigned to it. Directly
+    assigning a value to a parent key will delete all of the child keys.
+
 `To Top of Page`_
 
 Actions
 ~~~~~~~
 
-**Flag actions** are additional modifiers that determine how the flag treats the input value.
+**Flag actions** are additional modifiers that determine how the flag command treats the input value in relation to the
+flag's current value.
 
-All flag action information can be found `here`__. Below is a quick list of flag actions and a brief description of what
-each does.
-
-.. __: https://one.denizenscript.com/denizen/lngs/flags
+Below is a quick list of flag actions and a brief description of what each does.
 
 .. rst-class:: table-info-display
 
@@ -138,6 +158,8 @@ each does.
 |          |         |             | | If no value is specified, the flag's value will default to ``true``.            |
 +----------+---------+-------------+-----------------------------------------------------------------------------------+
 | ``!``    | No      | No          | | Deletes the whole flag.                                                         |
+|          |         |             | | If the deleted flag is the parent key of other flags, then all flags that are   |
+|          |         |             |   the children of the parent flag will also be deleted.                           |
 +----------+---------+-------------+-----------------------------------------------------------------------------------+
 | ``+``    | Yes     | Yes         | | Increases the flag's value by the specified amount.                             |
 |          |         |             | | If a nonexistent flag is specified, the flag's value is treated as zero before  |
@@ -177,7 +199,7 @@ each does.
 
 .. note::
 
-    These same actions can be applied to the :guilabel:`yaml` command.
+    These actions can also be applied to the :guilabel:`yaml` command.
 
 `To Top of Page`_
 
@@ -246,5 +268,41 @@ Tag Marks
 
 For example, ``<player.name>`` is a tag, and Denizen recognizes it as such because it begins with a ``<`` tag mark and
 ends with a ``>`` tag mark.
+
+`To Top of Page`_
+
+Tag Structure
+~~~~~~~~~~~~~
+
+When constructing a tag, recall that a single tag should be encapsulated by one set of tag marks. For most applications,
+``<<object.property>.sub_property>`` is illegal. Such a tag should be written as ``<object.property.sub_property>``, as
+Denizen will parse the properties sequentially.
+
+Note that the tag must be operating on an applicable object. For example, ``<player.add[1]>`` is completely illegal, as
+the ``<el@element.add[<#>]>`` tag only works for an Element object that is a number.
+
+When a tag requires an input, for example ``<util.random.int[<#>].to[<#>]>``, a tag may be used as the input. As the
+general rule, this should be the only time you would see a tag within a tag.
+
+However, there are certain special-case tags. The ternary tag, for example, may accept input like so:
+
+.. code-block:: dscript
+
+    <tern[<tag_that_returns_boolean_value>]:<value_when_true>||<value_when_false>>
+
+In this case, ``<tag_that_returns_boolean_value>``, ``<value_when_true>``, and ``<value_when_false>`` may all be tags,
+and Denizen will correctly parse the whole ternary tag.
+
+Additional special-case tags are the ``<parse:<element/tag>>`` and ``<math:<element/tag>>``. Note that of the three,
+you will almost never have to usee ``<parse:<element/tag>>`` or ``<math:<element/tag>>`` due to the vast amount of other
+tags and methods that can accomplish the same goal.
+
+Fallbacks
+~~~~~~~~~
+
+A **fallback** is the value that the tag will use, if the tag itself is invalid. For example, ``<invalid tag||null>``
+will return ``null`` since ``<invalid tag>`` is not a tag that Denizen can parse without throwing an error.
+
+Note that a fallback can be another tag, e.g. ``<invalid tag||<player.name>>``.
 
 `To Top of Page`_
