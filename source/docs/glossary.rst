@@ -117,10 +117,18 @@ General Definition
 **Flags** are persistent data that survives server restarts, provided the server is properly shut down. They can be
 assigned to a player, NPC, entity, or the server.
 
-Flags follow the YAML key structure, i.e. flags may have parent keys and child keys. For example, a flag with the name
-``my_flag.sub_flag`` is a flag whose parent key is ``my_flag``, and child key is ``sub_flag``. A flag with the name
-``my_flag.2nd_sub_flag`` is a flag that shares the same parent key ``my_flag``, but has a child key ``2nd_sub_flag``.
-You may append as many child keys as you want.
+Flag Structure
+~~~~~~~~~~~~~~
+
+.. warning::
+
+    The following information regarding the structure of the flag relies on a legacy system. Please refrain from using
+    this symbol ``.`` in your flag names, as the legacy system should not be actively used.
+
+Due to its current reliance on a legacy system, flags follow the YAML key structure, i.e. flags may have parent keys and
+child keys. For example, a flag with the name ``my_flag.sub_flag`` is a flag whose parent key is ``my_flag``, and child
+key is ``sub_flag``. A flag with the name ``my_flag.2nd_sub_flag`` is a flag that shares the same parent key
+``my_flag``, but has a child key ``2nd_sub_flag``.
 
 The structure of ``my_flag.sub_flag``, ``my_flag.sub_flag.another_child``, ``my_flag.sub_flag.more_children``, and
 ``my_flag.2nd_sub_flag`` may be visually seen like this:
@@ -136,8 +144,8 @@ The structure of ``my_flag.sub_flag``, ``my_flag.sub_flag.another_child``, ``my_
 
 .. note::
 
-    If any given key acts as the parent key to a child key, then that key cannot have a value assigned to it. Directly
-    assigning a value to a parent key will delete all of the child keys.
+    If any given key acts as the parent key to a child key, then that key cannot have its value changed, set, or
+    deleted. Directly changing the value of a parent key will delete all of the child keys.
 
 `To Top of Page`_
 
@@ -294,7 +302,7 @@ In this case, ``<tag_that_returns_boolean_value>``, ``<value_when_true>``, and `
 and Denizen will correctly parse the whole ternary tag.
 
 Additional special-case tags are the ``<parse:<element/tag>>`` and ``<math:<element/tag>>``. Note that of the three,
-you will almost never have to usee ``<parse:<element/tag>>`` or ``<math:<element/tag>>`` due to the vast amount of other
+you will almost never have to use ``<parse:<element/tag>>`` or ``<math:<element/tag>>`` due to the vast amount of other
 tags and methods that can accomplish the same goal.
 
 Fallbacks
