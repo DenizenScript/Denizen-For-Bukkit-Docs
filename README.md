@@ -1,6 +1,8 @@
 Denizen Written Documentation
 -----------------------------
 
+This repository is automatically built and displayed at https://docs.denizenscript.com/
+
 Documentation for Denizen 1.x.x - https://github.com/DenizenScript/Denizen-For-Bukkit
 
 Written primarily by suspic (@MusicScore) with the Denizen team.
