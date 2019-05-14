@@ -160,7 +160,7 @@ Below is a quick list of flag actions and a brief description of what each does.
 .. rst-class:: table-info-display
 
 +----------+---------+-------------+-----------------------------------------------------------------------------------+
-| Actions  | Value?  | Indexable?  | Description                                                                       |
+| Action   | Value?  | Indexable?  | Description                                                                       |
 +==========+=========+=============+===================================================================================+
 | none     | Yes     | Yes         | | Sets the value of the flag.                                                     |
 |          |         |             | | If no value is specified, the flag's value will default to ``true``.            |

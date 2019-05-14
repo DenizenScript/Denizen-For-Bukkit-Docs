@@ -54,7 +54,7 @@ To illustrate what I mean, consider this script:
 
 .. rst-class:: figurecaption
 
-**Figure 2.5.1** Using multiple ``<util.random.int[1].to[5]>`` tags
+**Figure 2.6.1** Using multiple ``<util.random.int[1].to[5]>`` tags
 
 Whenever you break a sand block, you will see *two different randomly chosen numbers* in your chat. What if we want both
 of them to display the same exact number? By recording that number somewhere, of course. But that leads to another
@@ -209,14 +209,12 @@ If you run those two commands in that exact order, you can expect to see somethi
 
 **Figure 2.6.4** The expected results when narrating the definition and flag from :ref:`Figure 2.6.3 <figure2_6_3>`
 
-Notice how the definition is invalid (and returns a null value), while the flag returns a number. If you break a sand
-block again, the definition will remain invalid while the flag will still return a number. Now why is that?
+Notice how the definition is invalid (and returns a null value), while the flag returns a sentence. If you break a sand
+block again, the definition will remain invalid while the flag will still return a sentence. Now why is that?
 
-Remember that definitions are synonymous to *local, temporary variables*. They exist only in the script they're in.
-Flags are not affected by this limitation. You can get the value of a flag, even after a script has finished running.
-Useful, isn't it?
-
-Of course, you can do a bit more with flags than you can with definitions.
+Remember that definitions are synonymous to local, temporary variables. They exist only in the script they're in. Flags
+are not affected by this limitation. You can get the value of a flag, even after a script has finished running. This is
+why flags are comparable to *global, permanent variables*. Useful, isn't it?
 
 2B. Math With Flags
 ~~~~~~~~~~~~~~~~~~~
