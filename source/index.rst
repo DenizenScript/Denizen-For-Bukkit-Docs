@@ -9,6 +9,10 @@ Not sure where to start? No problem! :doc:`Click here <docs/getting-started/inde
 of this extended text tutorial and start reading. The bottom of each page will direct you to the next and previous pages
 of this tutorial.
 
+.. warning::
+
+    This guide is scheduled for **total replacement**. The original primary author of this project is no longer a part of the Denizen team.
+
 .. note::
 
     This guide largely assumes that you already have a Spigot server set up and ready to use.

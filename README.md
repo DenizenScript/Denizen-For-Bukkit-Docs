@@ -7,6 +7,10 @@ Documentation for Denizen 1.x.x - https://github.com/DenizenScript/Denizen-For-B
 
 Written primarily by suspic (@MusicScore) with the Denizen team.
 
+# NOTICE
+
+This repository is scheduled for **total replacement**. The original primary author of this project is no longer a part of the Denizen team.
+
 ## Building
 
 ### Installation
