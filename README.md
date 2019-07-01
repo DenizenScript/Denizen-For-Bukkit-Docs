@@ -9,7 +9,9 @@ Written primarily by suspic (@MusicScore) with the Denizen team.
 
 # NOTICE
 
-This repository is scheduled for **total replacement**. The original primary author of this project is no longer a part of the Denizen team.
+This repository is archived as a historical artifact. The original author of the majority of the writing here left the team while the project was still in early stages.
+
+The replacement for this project can be found here: https://github.com/DenizenScript/Denizen-Beginners-Guide
 
 ## Building
 
